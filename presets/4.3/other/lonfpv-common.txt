@@ -1,0 +1,197 @@
+#$ TITLE: LonFPV common settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Common Betaflight configuration shared with 1.6" to 5" builds
+#$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
+
+# -- Features --
+feature -AIRMODE
+feature -MOTOR_STOP
+feature TELEMETRY
+feature LED_STRIP
+feature ESC_SENSOR
+
+# -- Beeper Settings --
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+
+# -- Beacon Settings --
+beacon RX_LOST
+beacon RX_SET
+
+# -- Map --
+map TAER1234
+
+# -- Aux Settings --
+# Arm, Angle, Horizon, (GPS Rescue), Beeper, Air Mode, FPV Angle Mix, Turtle Mode, Prearm
+aux 0 0 0 1525 2100 0 0
+aux 1 1 4 1325 1475 0 0
+aux 2 2 4 900 1075 0 0
+aux 3 13 1 1325 1475 0 0
+aux 4 28 4 1925 2100 0 0
+aux 5 30 4 900 2100 0 0
+aux 6 35 1 1925 2100 0 0
+aux 7 36 3 1525 2100 0 0
+
+# -- Range Adjustments --
+adjrange 0 0 2 900 2100 12 2 0 0
+adjrange 1 0 0 900 900 0 0 0 0
+adjrange 2 0 0 900 900 0 0 0 0
+
+# -- Master Settings --
+# Report receive SNR for RSSI dBm
+set crsf_use_rx_snr = ON
+# invalid name: set dyn_notch_width_percent = 0
+set dyn_notch_q = 250
+set dyn_notch_min_hz = 70
+set dyn_notch_max_hz = 350
+
+set min_check = 1020
+set max_check = 1980
+
+# FPV mix degrees: Automatically coordinates roll and yaw
+# Only active when FPV Angle Mix mode is active
+# JB recommends 50% of camera uptilt
+# Invalid name in Betaflight 4.3
+# set fpv_mix_degrees = 10
+# From 4.1 documentation: 
+# BF Configurator: FPV Camera Angle [degrees]
+# Camera tilt angle in degrees that should be compensated 
+# for when enabling FPV Angle Mix mode. It can be used to 
+# fly FPV as if the camera was tilted differently. 
+# Also known as uptilt compensation.
+
+set serialrx_provider = CRSF
+
+set debug_mode = GYRO_SCALED
+# Black box logging rate
+# UAV Tech recommends getting up to 500Hz; for Nyquist limit requires 1kHz sampling
+# Blackbox has two main types of frames:
+# - I-frames which store the absolute data
+# - P-frames which store deltas (so P-frames are smaller)
+# In 3.2 blackbox was changed so that there are 32 I-frames per second, regardless of PID loop speed. 
+# The blackbox logging rate is then determined by the number of P-frames per I-frame (blackbox_p_ratio).
+# If the p-ratio is 64, then a blackbox frame will be logged 32*64 = 2048 times a second.
+# UAV Tech recommends 2kHz Black Box logging rate
+# Invalid name in Betaflight 4.3: (was previously set blackbox_p_ratio = 64_
+set blackbox_p_ratio = 64
+
+set dshot_idle_value = 450
+set dshot_bidir = ON
+# DSHOT600 required for 8K PID loop
+set motor_pwm_protocol = DSHOT600
+set failsafe_delay = 9
+set vbat_max_cell_voltage = 435
+set vbat_full_cell_voltage = 410
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350
+set vbat_hysteresis = 1
+set yaw_motors_reversed = ON
+set small_angle = 180
+set deadband = 2
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
+set pid_process_denom = 1
+set osd_units = IMPERIAL
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_rssi_dbm = OFF
+set osd_tim1 = 2336
+set osd_vbat_pos = 2265
+set osd_rssi_pos = 2235
+set osd_rssi_dbm_pos = 2393
+set osd_link_quality_pos = 2273
+set osd_tim_1_pos = 2336
+set osd_tim_2_pos = 322
+set osd_flymode_pos = 2208
+set osd_vtx_channel_pos = 376
+set osd_crosshairs_pos = 2319
+set osd_current_pos = 2328
+set osd_mah_drawn_pos = 2362
+set osd_craft_name_pos = 2064
+set osd_display_name_pos = 65
+set osd_altitude_pos = 2144
+set osd_warnings_pos = 2409
+set osd_avg_cell_voltage_pos = 2297
+set osd_disarmed_pos = 2220
+set osd_esc_rpm_freq_pos = 234
+set osd_stat_tim_1 = ON
+set osd_stat_min_rssi = OFF
+set debug_mode = GYRO_SCALED
+
+# RPM notch filter harmonics; default is 3 which provides optimal filtering
+# A value of 1 or 2 provides lower latency, with slightly less filtering
+# Invalid name in Betaflight 4.3
+set gyro_rpm_notch_harmonics = 3
+
+# profile 0
+profile 0
+set vbat_sag_compensation = 100
+set iterm_relax_cutoff = 20
+
+# rateprofile 0
+rateprofile 0
+set thr_mid = 40
+set thr_expo = 65
+set rates_type = ACTUAL
+set roll_rc_rate = 4
+set pitch_rc_rate = 4
+set yaw_rc_rate = 4
+set roll_expo = 100
+set pitch_expo = 100
+set yaw_expo = 100
+set roll_srate = 40
+set pitch_srate = 40
+set yaw_srate = 40
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 84
+
+# rateprofile 1
+rateprofile 1
+set thr_mid = 40
+set thr_expo = 65
+set rates_type = ACTUAL
+set roll_rc_rate = 8
+set pitch_rc_rate = 8
+set yaw_rc_rate = 8
+set roll_expo = 100
+set pitch_expo = 100
+set yaw_expo = 100
+set roll_srate = 46
+set pitch_srate = 46
+set yaw_srate = 46
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 85
+
+# rateprofile 2
+rateprofile 2
+set thr_mid = 40
+set thr_expo = 65
+set rates_type = ACTUAL
+set roll_rc_rate = 14
+set pitch_rc_rate = 14
+set yaw_rc_rate = 14
+set roll_expo = 100
+set pitch_expo = 100
+set yaw_expo = 100
+set roll_srate = 90
+set pitch_srate = 90
+set yaw_srate = 90
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 90
+
+# default rateprofile
+rateprofile 0
