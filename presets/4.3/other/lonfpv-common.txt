@@ -60,9 +60,11 @@ set dyn_notch_q = 250
 set dyn_notch_min_hz = 70
 set dyn_notch_max_hz = 350
 
+# -- Throttle Range --
 set min_check = 1020
 set max_check = 1980
 
+# -- FPV Angle Mix --
 # FPV mix degrees: Automatically coordinates roll and yaw
 # Only active when FPV Angle Mix mode is active
 # JB recommends 50% of camera uptilt
@@ -75,8 +77,10 @@ set max_check = 1980
 # fly FPV as if the camera was tilted differently. 
 # Also known as uptilt compensation.
 
+# -- Receiver --
 set serialrx_provider = CRSF
 
+# -- Blackbox --
 set debug_mode = GYRO_SCALED
 # Black box logging rate
 # UAV Tech recommends getting up to 500Hz; for Nyquist limit requires 1kHz sampling
@@ -90,6 +94,7 @@ set debug_mode = GYRO_SCALED
 # Invalid name in Betaflight 4.3: (was previously set blackbox_p_ratio = 64_
 set blackbox_p_ratio = 64
 
+# -- Master 2 --
 set dshot_idle_value = 450
 set dshot_bidir = ON
 # DSHOT600 required for 8K PID loop
@@ -105,6 +110,8 @@ set small_angle = 180
 set deadband = 2
 # Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
 set pid_process_denom = 1
+
+# -- OSD --
 set osd_units = IMPERIAL
 set osd_warn_no_gps_rescue = OFF
 set osd_warn_gps_rescue_disabled = OFF
@@ -130,13 +137,14 @@ set osd_disarmed_pos = 2220
 set osd_esc_rpm_freq_pos = 234
 set osd_stat_tim_1 = ON
 set osd_stat_min_rssi = OFF
-set debug_mode = GYRO_SCALED
 
+# -- Filters --
 # RPM notch filter harmonics; default is 3 which provides optimal filtering
 # A value of 1 or 2 provides lower latency, with slightly less filtering
 # Invalid name in Betaflight 4.3
 set gyro_rpm_notch_harmonics = 3
 
+# -- Rates --
 # profile 0
 profile 0
 set vbat_sag_compensation = 100
