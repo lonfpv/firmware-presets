@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: Common Betaflight configuration shared with 1.6" to 5" builds
+#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad
 #$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
 
 #$ INCLUDE: presets/4.3/other/lonfpv-common.txt
