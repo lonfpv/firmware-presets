@@ -1,0 +1,16 @@
+#$ TITLE: LonFPV disable GPS settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, GPS
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Resets the GPS settings to LonFPV 4.3 defaults with GPS disabled
+
+#$ INCLUDE: presets/4.3/other/reset_gps.txt
+
+# -- GPS feature customizations --
+feature -GPS
+
+# -- LonFPV GPS beeper customizations --
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS

@@ -1,20 +1,21 @@
-#$ TITLE: LonFPV Ommagawd 2Fiddy 4-5" 6S settings
+#$ TITLE: LonFPV HappyModel Mobula7 40mm 2S settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ KEYWORDS: 40mm, 2S, whoop, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad
+#$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop
 #$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
 
-#$ INCLUDE: presets/4.3/other/lonfpv-common.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
-#$ INCLUDE: presets/4.3/leds/lonfpv-20-leds.txt
-#$ INCLUDE: presets/4.3/modes/lonfpv-modes.txt
-#$ INCLUDE: presets/4.3/other/lonfpv-blackbox-8K-pid-2K-log.txt
-#$ INCLUDE: presets/4.3/other/lonfpv-gps.txt
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+#$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
 
+#$ INCLUDE: presets/4.3/modes/ TBD
 #$ INCLUDE: presets/4.3/ TBD: OSD
 #$ INCLUDE: presets/4.3/ TBD: RC_LINK
 #$ INCLUDE: presets/4.3/ TBD: Rates
