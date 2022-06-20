@@ -44,7 +44,6 @@ set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 0
 set mag_hardware = AUTO
 set baro_hardware = AUTO
-set blackbox_device = SPIFLASH
 set dshot_bitbang = AUTO
 set motor_poles = 12
 set bat_capacity = 380
