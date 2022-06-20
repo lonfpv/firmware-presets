@@ -11,15 +11,12 @@
 feature -AIRMODE
 feature -MOTOR_STOP
 feature TELEMETRY
-feature LED_STRIP
 feature ESC_SENSOR
 
 # -- Beeper Settings --
 beeper -GYRO_CALIBRATED
 beeper -DISARMING
 beeper -ARMING
-beeper -ARMING_GPS_FIX
-beeper -GPS_STATUS
 beeper -ACC_CALIBRATION
 beeper -READY_BEEP
 beeper -DISARM_REPEAT
@@ -52,13 +49,8 @@ adjrange 0 0 2 900 2100 12 2 0 0
 adjrange 1 0 0 900 900 0 0 0 0
 adjrange 2 0 0 900 900 0 0 0 0
 
-# -- Master Settings --
-# Report receive SNR for RSSI dBm
+# -- Report receive SNR for RSSI dBm --
 set crsf_use_rx_snr = ON
-# invalid name: set dyn_notch_width_percent = 0
-set dyn_notch_q = 250
-set dyn_notch_min_hz = 70
-set dyn_notch_max_hz = 350
 
 # -- Throttle Range --
 set min_check = 1020
@@ -80,7 +72,7 @@ set max_check = 1980
 # -- Receiver --
 set serialrx_provider = CRSF
 
-# -- Master 2 --
+# -- Master --
 set dshot_idle_value = 450
 set dshot_bidir = ON
 # DSHOT600 required for 8K PID loop
@@ -123,12 +115,6 @@ set osd_disarmed_pos = 2220
 set osd_esc_rpm_freq_pos = 234
 set osd_stat_tim_1 = ON
 set osd_stat_min_rssi = OFF
-
-# -- Filters --
-# RPM notch filter harmonics; default is 3 which provides optimal filtering
-# A value of 1 or 2 provides lower latency, with slightly less filtering
-# Invalid name in Betaflight 4.3
-set gyro_rpm_notch_harmonics = 3
 
 # -- Rates --
 # profile 0

@@ -12,7 +12,6 @@
 #$ INCLUDE: presets/4.3/other/lonfpv-blackbox-4K-pid-2K-log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv-gps-disable.txt
 
-#$ INCLUDE: presets/4.3/ TBD: LEDs
 #$ INCLUDE: presets/4.3/modes/ TBD
 #$ INCLUDE: presets/4.3/ TBD: OSD
 #$ INCLUDE: presets/4.3/ TBD: RC_LINK

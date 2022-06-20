@@ -11,8 +11,8 @@
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
 #$ INCLUDE: presets/4.3/other/lonfpv-blackbox-8K-pid-2K-log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv-gps.txt
+#$ INCLUDE: presets/4.3/leds/lonfpv-20-leds.txt
 
-#$ INCLUDE: presets/4.3/ TBD: LEDs
 #$ INCLUDE: presets/4.3/modes/ TBD
 #$ INCLUDE: presets/4.3/ TBD: OSD
 #$ INCLUDE: presets/4.3/ TBD: RC_LINK
