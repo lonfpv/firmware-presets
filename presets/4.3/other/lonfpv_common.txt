@@ -73,33 +73,6 @@ set deadband = 2
 # Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
 set pid_process_denom = 1
 
-# -- OSD --
-set osd_units = IMPERIAL
-set osd_warn_no_gps_rescue = OFF
-set osd_warn_gps_rescue_disabled = OFF
-set osd_warn_rssi_dbm = OFF
-set osd_tim1 = 2336
-set osd_vbat_pos = 2265
-set osd_rssi_pos = 2235
-set osd_rssi_dbm_pos = 2393
-set osd_link_quality_pos = 2273
-set osd_tim_1_pos = 2336
-set osd_tim_2_pos = 322
-set osd_flymode_pos = 2208
-set osd_vtx_channel_pos = 376
-set osd_crosshairs_pos = 2319
-set osd_current_pos = 2328
-set osd_mah_drawn_pos = 2362
-set osd_craft_name_pos = 2064
-set osd_display_name_pos = 65
-set osd_altitude_pos = 2144
-set osd_warnings_pos = 2409
-set osd_avg_cell_voltage_pos = 2297
-set osd_disarmed_pos = 2220
-set osd_esc_rpm_freq_pos = 234
-set osd_stat_tim_1 = ON
-set osd_stat_min_rssi = OFF
-
 # -- Rates --
 # profile 0
 profile 0

@@ -12,11 +12,10 @@
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
 #$ INCLUDE: presets/4.3/leds/defaults.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+#$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
 
-#$ INCLUDE: presets/4.3/modes/ TBD
-#$ INCLUDE: presets/4.3/ TBD: OSD
 #$ INCLUDE: presets/4.3/ TBD: RC_LINK
 #$ INCLUDE: presets/4.3/ TBD: Rates
 #$ INCLUDE: presets/4.3/ TBD: Tune
