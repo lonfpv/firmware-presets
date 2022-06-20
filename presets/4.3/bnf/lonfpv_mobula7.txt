@@ -23,13 +23,7 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
 
 # -- RC link and VTX --
-#$ OPTION BEGIN: (CHECKED): HD Freestyle
-#$ OPTION END
-#$ OPTION BEGIN: (CHECKED): SPI, on the FC
-#$ OPTION END
-#$ OPTION BEGIN: (CHECKED): Whole pack values
-#$ OPTION END
-#$ INCLUDE: presets/4.3/rc_link/elrs_250hz.txt
+#$ INCLUDE: presets/4.3/rc_link/lonfpv_elrs_spi_250hz.txt
 
 #$ OPTION BEGIN: (CHECKED): unlocked Freestyle
 #$ OPTION END
@@ -79,10 +73,6 @@ set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 1
 # invalid name: set max7456_clock = DEFAULT
-set displayport_msp_serial = 1
 set gyro_1_sensor_align = CW0FLIP
 set gyro_1_align_pitch = 1800
 set gyro_1_align_yaw = 0
-# binding phrase: lonfpv5127
-set expresslrs_uid = 213,233,157,39,175,230
-set expresslrs_rate_index = 1

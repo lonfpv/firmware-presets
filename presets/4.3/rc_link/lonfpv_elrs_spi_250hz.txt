@@ -1,0 +1,31 @@
+#$ TITLE: LonFPV ExpressLRS SPI 250Hz
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: ELRS, express, 250Hz, rc, rx, link, smoothing
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: RC link settings for a 250Hz ELRS link via CRSF over SPI.
+#$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
+#$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
+
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
+# -- ExpressLRS link for SPI --
+set serialrx_provider = CRSF
+feature -RX_SERIAL
+feature RX_SPI
+set rx_spi_protocol = EXPRESSLRS
+# binding phrase: lonfpv5127
+set expresslrs_uid = 213,233,157,39,175,230
+set expresslrs_rate_index = 1
+
+# -- Stronger smoothing for 250 Hz HD freestyle (not for racing) --
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+set rc_smoothing_auto_factor = 140
+set rc_smoothing_setpoint_cutoff = 25
+set rc_smoothing_feedforward_cutoff = 25
+
+# -- Voltage telemtry readings --
+set report_cell_voltage = ON
