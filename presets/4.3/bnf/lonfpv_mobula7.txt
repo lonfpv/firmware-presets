@@ -24,11 +24,6 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 
 # -- RC link and VTX --
 #$ INCLUDE: presets/4.3/rc_link/lonfpv_elrs_spi_250hz.txt
-
-#$ OPTION BEGIN: (CHECKED): unlocked Freestyle
-#$ OPTION END
-#$ OPTION BEGIN: (CHECKED): use displayport on uart 2
-#$ OPTION END
 #$ INCLUDE: presets/4.3/vtx/lonfpv_hdzero_osd.txt
 
 # -- LonFPV common settings --
