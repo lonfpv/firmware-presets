@@ -7,9 +7,13 @@
 #$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad
 #$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
 
-#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
-
+$ OPTION BEGIN: (CHECKED): HD Freestyle
+#$ OPTION END
+#$ OPTION BEGIN: (CHECKED): Dynamic Idle
+#$ OPTION END
+#$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
+
 #$ INCLUDE: presets/4.3/leds/lonfpv_20_leds.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
@@ -21,7 +25,8 @@
 #$ OPTION END
 #$ INCLUDE: presets/4.3/rc_link/tbs/tracer_250hz.txt
 
-#$ INCLUDE: presets/4.3/ TBD: Tune
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
+
 #$ INCLUDE: presets/4.3/ TBD: VTX
 
 # -- Resources --
