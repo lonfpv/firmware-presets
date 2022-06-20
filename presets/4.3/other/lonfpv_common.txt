@@ -13,7 +13,7 @@ feature -MOTOR_STOP
 feature TELEMETRY
 feature ESC_SENSOR
 
-# -- Beeper Settings --
+# -- Beeper settings --
 beeper -GYRO_CALIBRATED
 beeper -DISARMING
 beeper -ARMING
@@ -26,7 +26,7 @@ beeper -ON_USB
 beeper -CAM_CONNECTION_OPEN
 beeper -CAM_CONNECTION_CLOSE
 
-# -- Beacon Settings --
+# -- Beacon settings --
 beacon RX_LOST
 beacon RX_SET
 
@@ -36,9 +36,9 @@ map TAER1234
 # -- Report receive SNR for RSSI dBm --
 set crsf_use_rx_snr = ON
 
-# -- Throttle Range --
+# -- Throttle range --
 set min_check = 1020
-set max_check = 1980
+set max_check = 1990
 
 # -- FPV Angle Mix --
 # FPV mix degrees: Automatically coordinates roll and yaw
