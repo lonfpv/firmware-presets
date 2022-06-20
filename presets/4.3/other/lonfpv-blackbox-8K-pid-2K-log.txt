@@ -1,0 +1,11 @@
+#$ TITLE: LonFPV blackbox settings for 8k PID loop and 2k logging
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: blackbox
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Blackbox settings for 8k PID loop and 1/4 sampling 
+#$ DESCRIPTION: to get 2k logging -- at Nyquist limit for 1kHz noise
+
+#$ INCLUDE: presets/4.3/other/reset_blackbox.txt
+set debug_mode = GYRO_SCALED
