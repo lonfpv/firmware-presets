@@ -68,7 +68,6 @@ set yaw_deadband = 1
 set pid_process_denom = 4
 set simplified_gyro_filter_multiplier = 120
 
-set debug_mode = RX_EXPRESSLRS_SPI
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 1
