@@ -33,22 +33,6 @@ beacon RX_SET
 # -- Map --
 map TAER1234
 
-# -- Aux Settings --
-# Arm, Angle, Horizon, (GPS Rescue), Beeper, Air Mode, FPV Angle Mix, Turtle Mode, Prearm
-aux 0 0 0 1525 2100 0 0
-aux 1 1 4 1325 1475 0 0
-aux 2 2 4 900 1075 0 0
-aux 3 13 1 1325 1475 0 0
-aux 4 28 4 1925 2100 0 0
-aux 5 30 4 900 2100 0 0
-aux 6 35 1 1925 2100 0 0
-aux 7 36 3 1525 2100 0 0
-
-# -- Range Adjustments --
-adjrange 0 0 2 900 2100 12 2 0 0
-adjrange 1 0 0 900 900 0 0 0 0
-adjrange 2 0 0 900 900 0 0 0 0
-
 # -- Report receive SNR for RSSI dBm --
 set crsf_use_rx_snr = ON
 
