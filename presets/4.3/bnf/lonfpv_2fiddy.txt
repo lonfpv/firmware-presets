@@ -4,28 +4,32 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad
-#$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
+#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad.
 
-$ OPTION BEGIN: (CHECKED): HD Freestyle
+# -- Tune, filters, rates, and modes --
+#$ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ OPTION BEGIN: (CHECKED): Dynamic Idle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
-
-#$ INCLUDE: presets/4.3/leds/lonfpv_20_leds.txt
+#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+
+# -- LEDs, OSD, blackbox, and GPS --
+#$ INCLUDE: presets/4.3/leds/lonfpv_20_leds.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps.txt
-#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 
+# -- RC link and VTX --
 #$ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/rc_link/tbs/tracer_250hz.txt
 
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
+
+# -- LonFPV common settings --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 # -- Resources --

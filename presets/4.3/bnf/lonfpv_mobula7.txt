@@ -4,23 +4,25 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 40mm, 2S, whoop, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop
-#$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
+#$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop.
 
+# -- Tune, filters, rates, and modes --
 $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ OPTION BEGIN: (CHECKED): Dynamic Idle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
-
-#$ INCLUDE: presets/4.3/leds/defaults.txt
+#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+
+# -- LEDs, OSD, blackbox, and GPS --
+#$ INCLUDE: presets/4.3/leds/defaults.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
-#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 
+# -- RC link and VTX --
 #$ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ OPTION BEGIN: (CHECKED): SPI, on the FC
@@ -35,6 +37,7 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/vtx/HDZero.txt
 
+# -- RC link and VTX --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 # -- Resources --
