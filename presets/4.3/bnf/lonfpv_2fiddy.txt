@@ -56,6 +56,14 @@ set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 0
 set mag_hardware = AUTO
 set baro_hardware = AUTO
+set bat_capacity = 380
+
+# -- Motor Protocol --
+# DSHOT600 required for 8K PID loop
+set motor_pwm_protocol = DSHOT600
+set dshot_idle_value = 450
+set dshot_bidir = ON
 set dshot_bitbang = AUTO
 set motor_poles = 12
-set bat_capacity = 380
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
+set pid_process_denom = 1

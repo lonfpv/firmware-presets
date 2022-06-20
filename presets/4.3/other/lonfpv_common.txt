@@ -54,10 +54,6 @@ set max_check = 1980
 # Also known as uptilt compensation.
 
 # -- Master --
-set dshot_idle_value = 450
-set dshot_bidir = ON
-# DSHOT600 required for 8K PID loop
-set motor_pwm_protocol = DSHOT600
 set failsafe_delay = 9
 set vbat_max_cell_voltage = 435
 set vbat_full_cell_voltage = 410
@@ -67,6 +63,4 @@ set vbat_hysteresis = 1
 set yaw_motors_reversed = ON
 set small_angle = 180
 set deadband = 2
-# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
-set pid_process_denom = 1
 

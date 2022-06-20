@@ -54,19 +54,12 @@ serial 1 1 115200 57600 0 115200
 # -- Master --
 # from RC6
 set crsf_use_negotiated_baud = OFF
-set dshot_burst = OFF
-set dshot_bidir = ON
-set dshot_bitbang = AUTO
-set motor_pwm_protocol = DSHOT300
-set motor_poles = 12
 set failsafe_delay = 4
 set failsafe_recovery_delay = 20
 set vbat_scale = 112
 set ibata_scale = 285
 set deadband = 1
 set yaw_deadband = 1
-set pid_process_denom = 4
-set simplified_gyro_filter_multiplier = 120
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 1
@@ -76,3 +69,14 @@ set gyro_1_align_yaw = 0
 
 # -- Overclock (can help the lower performance F411; default is 108MHz)
 # cpu_overclock set to 120MHz
+
+# -- Motor Protocol --
+# DSHOT600 required for 8K PID loop
+set motor_pwm_protocol = DSHOT300
+set dshot_burst = OFF
+set dshot_idle_value = 450
+set dshot_bidir = ON
+set dshot_bitbang = AUTO
+set motor_poles = 12
+# Denominator for Gyro Update Frequency / PID Loop Frequency (4 for 2K)
+set pid_process_denom = 4
