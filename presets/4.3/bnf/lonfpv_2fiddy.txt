@@ -25,9 +25,8 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/rc_link/tbs/tracer_250hz.txt
 
+#$ INCLUDE: presets/4.3/vtx/defaults.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
-
-#$ INCLUDE: presets/4.3/ TBD: VTX
 
 # -- Resources --
 resource MOTOR 1 E09

@@ -29,9 +29,13 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ INCLUDE: presets/4.3/rc_link/elrs_250hz.txt
 
-#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
+#$ OPTION BEGIN: (CHECKED): unlocked Freestyle
+#$ OPTION END
+#$ OPTION BEGIN: (CHECKED): use displayport on uart 2
+#$ OPTION END
+#$ INCLUDE: presets/4.3/vtx/HDZero.txt
 
-#$ INCLUDE: presets/4.3/ TBD: VTX
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 # -- Resources --
 resource MOTOR 1 E09
