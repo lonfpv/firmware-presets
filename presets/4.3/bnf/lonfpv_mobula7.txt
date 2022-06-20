@@ -17,7 +17,7 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
 
 # -- LEDs, OSD, blackbox, and GPS --
-#$ INCLUDE: presets/4.3/leds/defaults.txt
+#$ INCLUDE: presets/4.3/leds/lonfpv_led_disable.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
@@ -35,35 +35,54 @@ $ OPTION BEGIN: (CHECKED): HD Freestyle
 #$ OPTION END
 #$ OPTION BEGIN: (CHECKED): use displayport on uart 2
 #$ OPTION END
-#$ INCLUDE: presets/4.3/vtx/HDZero.txt
+#$ INCLUDE: presets/4.3/vtx/lonfpv_hdzero_osd.txt
 
-# -- RC link and VTX --
+# -- LonFPV common settings --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
-# -- Resources --
-resource MOTOR 1 E09
-resource MOTOR 2 B00
-resource MOTOR 3 E11
-resource MOTOR 4 B01
+# -- Manufacturer: HappyModel --
+manufacturer_id HAMO
+
+# -- DMA --
+# ADC 1: DMA2 Stream 0 Channel 0
+dma ADC 1 0
+dma pin A09 NONE
+dma pin A10 NONE
+
+# -- Features --
+feature -ANTI_GRAVITY
 
 # -- Serial Ports --
-# Tracer
-serial 1 64 115200 57600 0 115200
-# Vista
-serial 4 1 115200 57600 0 115200
-# GPS
-serial 5 2 115200 57600 0 115200
-# ESC
-serial 6 1024 115200 57600 0 115200
+serial 20 1 115200 57600 0 115200
+serial 0 0 115200 57600 0 115200
+serial 1 1 115200 57600 0 115200
 
 # -- Master --
-set align_board_roll = 0
-set align_board_pitch = 0
-set align_board_yaw = 0
-set gyro_1_sensor_align = CW180
-set gyro_1_align_yaw = 0
-set mag_hardware = AUTO
-set baro_hardware = AUTO
+# from RC6
+set crsf_use_negotiated_baud = OFF
+set dshot_burst = OFF
+set dshot_bidir = ON
 set dshot_bitbang = AUTO
+set motor_pwm_protocol = DSHOT300
 set motor_poles = 12
-set bat_capacity = 380
+set failsafe_delay = 4
+set failsafe_recovery_delay = 20
+set vbat_scale = 112
+set ibata_scale = 285
+set deadband = 1
+set yaw_deadband = 1
+set pid_process_denom = 4
+set simplified_gyro_filter_multiplier = 120
+
+set debug_mode = RX_EXPRESSLRS_SPI
+set vtx_band = 1
+set vtx_channel = 1
+set vtx_power = 1
+# invalid name: set max7456_clock = DEFAULT
+set displayport_msp_serial = 1
+set gyro_1_sensor_align = CW0FLIP
+set gyro_1_align_pitch = 1800
+set gyro_1_align_yaw = 0
+# binding phrase: lonfpv5127
+set expresslrs_uid = 213,233,157,39,175,230
+set expresslrs_rate_index = 1

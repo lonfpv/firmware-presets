@@ -1,0 +1,12 @@
+#$ TITLE: LonFPV 20-LED settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: LEDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, leds
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Disables LEDs
+
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+
+# -- LED feature --
+feature -LED_STRIP

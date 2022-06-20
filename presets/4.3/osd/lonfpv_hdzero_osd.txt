@@ -1,0 +1,44 @@
+#$ TITLE: LonFPV 4.3 HDZero OSD settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, OSD
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Resets the OSD values back to LonFPV 4.3 defaults for HDZero digital FPV
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+# -- OSD units and warnings --
+set osd_units = IMPERIAL
+set osd_warn_batt_not_full = OFF
+set osd_warn_batt_warning = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+
+# -- OSD value positions --
+set osd_crosshairs_pos = 2319
+set osd_rssi_pos = 314
+set osd_link_quality_pos = 2487
+set osd_rssi_dbm_pos = 2455
+set osd_tim_2_pos = 2529
+set osd_flymode_pos = 2554
+set osd_throttle_pos = 2522
+set osd_current_pos = 2432
+set osd_mah_drawn_pos = 2464
+set osd_craft_name_pos = 2538
+set osd_warnings_pos = 2504
+set osd_avg_cell_voltage_pos = 2497
+set osd_disarmed_pos = 2474
+
+# -- OSD post-flight statistics --
+set osd_stat_tim_1 = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+
+# -- Displayport device --
+set osd_displayport_device = MSP
