@@ -8,9 +8,9 @@
 #$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
 
 #$ INCLUDE: presets/4.3/other/lonfpv-common.txt
-
-#$ INCLUDE: presets/4.3/ TBD: Blackbox
+#$ INCLUDE: presets/4.3/other/lonfpv-blackbox-4K-pid-2K-log.txt
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
+
 #$ INCLUDE: presets/4.3/ TBD: GPS
 #$ INCLUDE: presets/4.3/ TBD: LEDs
 #$ INCLUDE: presets/4.3/modes/ TBD

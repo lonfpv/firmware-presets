@@ -80,20 +80,6 @@ set max_check = 1980
 # -- Receiver --
 set serialrx_provider = CRSF
 
-# -- Blackbox --
-set debug_mode = GYRO_SCALED
-# Black box logging rate
-# UAV Tech recommends getting up to 500Hz; for Nyquist limit requires 1kHz sampling
-# Blackbox has two main types of frames:
-# - I-frames which store the absolute data
-# - P-frames which store deltas (so P-frames are smaller)
-# In 3.2 blackbox was changed so that there are 32 I-frames per second, regardless of PID loop speed. 
-# The blackbox logging rate is then determined by the number of P-frames per I-frame (blackbox_p_ratio).
-# If the p-ratio is 64, then a blackbox frame will be logged 32*64 = 2048 times a second.
-# UAV Tech recommends 2kHz Black Box logging rate
-# Invalid name in Betaflight 4.3: (was previously set blackbox_p_ratio = 64_
-set blackbox_p_ratio = 64
-
 # -- Master 2 --
 set dshot_idle_value = 450
 set dshot_bidir = ON
