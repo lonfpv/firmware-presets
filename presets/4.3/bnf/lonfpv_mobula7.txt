@@ -67,11 +67,12 @@ set deadband = 1
 set yaw_deadband = 1
 set pid_process_denom = 4
 set simplified_gyro_filter_multiplier = 120
-
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 1
-# invalid name: set max7456_clock = DEFAULT
 set gyro_1_sensor_align = CW0FLIP
 set gyro_1_align_pitch = 1800
 set gyro_1_align_yaw = 0
+
+# -- Overclock (can help the lower performance F411; default is 108MHz)
+# cpu_overclock set to 120MHz
