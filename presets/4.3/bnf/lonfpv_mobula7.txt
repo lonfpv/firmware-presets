@@ -54,12 +54,8 @@ serial 1 1 115200 57600 0 115200
 # -- Master --
 # from RC6
 set crsf_use_negotiated_baud = OFF
-set failsafe_delay = 4
-set failsafe_recovery_delay = 20
 set vbat_scale = 112
 set ibata_scale = 285
-set deadband = 1
-set yaw_deadband = 1
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 1

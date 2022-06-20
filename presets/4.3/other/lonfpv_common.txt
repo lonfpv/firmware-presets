@@ -55,6 +55,7 @@ set max_check = 1980
 
 # -- Master --
 set failsafe_delay = 9
+set failsafe_recovery_delay = 20
 set vbat_max_cell_voltage = 435
 set vbat_full_cell_voltage = 410
 set vbat_min_cell_voltage = 330
@@ -62,5 +63,5 @@ set vbat_warning_cell_voltage = 350
 set vbat_hysteresis = 1
 set yaw_motors_reversed = ON
 set small_angle = 180
-set deadband = 2
-
+set deadband = 1
+set yaw_deadband = 1
