@@ -16,7 +16,14 @@
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
 
-#$ INCLUDE: presets/4.3/ TBD: RC_LINK
+#$ OPTION BEGIN: (CHECKED): HD Freestyle
+#$ OPTION END
+#$ OPTION BEGIN: (CHECKED): SPI, on the FC
+#$ OPTION END
+#$ OPTION BEGIN: (CHECKED): Whole pack values
+#$ OPTION END
+#$ INCLUDE: presets/4.3/rc_link/elrs_250hz.txt
+
 #$ INCLUDE: presets/4.3/ TBD: Rates
 #$ INCLUDE: presets/4.3/ TBD: Tune
 #$ INCLUDE: presets/4.3/ TBD: VTX
