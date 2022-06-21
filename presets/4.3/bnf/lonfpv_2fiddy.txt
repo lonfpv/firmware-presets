@@ -8,7 +8,7 @@
 
 # -- Tune, filters, rates, and modes --
 #$ INCLUDE: presets/4.3/tune/lonfpv_toothpick_tune.txt
-#$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
+#$ INCLUDE: presets/4.3/filters/lonfpv_toothpick_filters.txt
 #$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
 

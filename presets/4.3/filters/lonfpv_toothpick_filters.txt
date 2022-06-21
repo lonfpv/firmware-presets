@@ -1,0 +1,29 @@
+#$ TITLE: LonFPV default filters for 2" to 4" toothpick builds
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: toothpick, rpm, DShot telemetry, filter, filters, basic, default
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: LonFPV default filters for 2" to 4" toothpick builds based
+#$ DESCRIPTION: on UAV_tech_Toothpic.txt preset from UAV Tech with RPM
+#$ DESCRIPTION: filtering and dynamic idle options selected.
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- General filter settings --
+set simplified_dterm_filter = ON
+set simplified_gyro_filter = ON
+set dyn_notch_count = 2
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 850
+set simplified_gyro_filter_multiplier = 150
+set simplified_dterm_filter_multiplier = 120
+set yaw_lowpass_hz = 0
+
+# TBD: is this required?
+simplified_tuning apply
+
+# -- RPM filter and dynamic idle settings --
+set dshot_bidir = ON
+set rpm_filter_harmonics = 2
+set dyn_idle_min_rpm = 35
