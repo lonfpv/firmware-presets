@@ -1,0 +1,17 @@
+#$ TITLE: LonFPV Toothpick Tune (2in to 4in)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 2S, 4S, 6S, toothpick, 2in, 2", 3in, 3", 3.5in, 3.5", 4in, 4"
+#$ AUTHOR: LonFPV (Rich Blomseth)
+
+#$ DESCRIPTION: Based on UAV_tech (Mark Spatz) toothpick tune.
+#$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
+
+# -- RPM filtering --
+set dshot_bidir = ON
+set rpm_filter_harmonics = 2
+set dyn_notch_count = 2
+
+# -- Dynamic idle --
+set dyn_idle_min_rpm = 35
