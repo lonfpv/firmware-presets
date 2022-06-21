@@ -33,9 +33,6 @@ beacon RX_SET
 # -- Map --
 map TAER1234
 
-# -- Report receive SNR for RSSI dBm --
-set crsf_use_rx_snr = ON
-
 # -- Throttle range --
 set min_check = 1020
 set max_check = 1990
@@ -43,7 +40,7 @@ set max_check = 1990
 # -- FPV Angle Mix --
 # FPV mix degrees: Automatically coordinates roll and yaw
 # Only active when FPV Angle Mix mode is active
-# JB recommends 50% of camera uptilt
+# JB recommends 50 degrees of camera uptilt
 # Invalid name in Betaflight 4.3
 # set fpv_mix_degrees = 10
 # From 4.1 documentation: 

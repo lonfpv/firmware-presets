@@ -1,4 +1,4 @@
-#$ TITLE: LonFPV Whoop Tune (1S & 2S)
+#$ TITLE: LonFPV 1S and 2S whoop tune
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY

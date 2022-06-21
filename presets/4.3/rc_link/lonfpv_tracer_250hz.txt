@@ -1,0 +1,27 @@
+#$ TITLE: LonFPV TBS Tracer 250Hz
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 250Hz, TBS, Tracer, Team Black Sheep, CRSF, rc, rx , link
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: RC link settings for a 250Hz TBS Tracer link via CRSF.
+#$ DESCRIPTION: Based on Ivan's tracer_250hz.txt preset.
+
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
+# -- Tracer link --
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+# -- Feed forward settings for 250 Hz --
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+
+# -- RC smoothing settings for 250 Hz --
+set rc_smoothing_auto_factor = 140
+set rc_smoothing_setpoint_cutoff = 25
+set rc_smoothing_feedforward_cutoff = 25
+
+# -- Report receive SNR for RSSI dBm --
+set crsf_use_rx_snr = ON
