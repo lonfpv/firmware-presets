@@ -7,11 +7,7 @@
 #$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop.
 
 # -- Tune, filters, rates, and modes --
-$ OPTION BEGIN: (CHECKED): HD Freestyle
-#$ OPTION END
-#$ OPTION BEGIN: (CHECKED): Dynamic Idle
-#$ OPTION END
-#$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
+#$ INCLUDE: presets/4.3/tune/lonfpv_whoop_tune.txt
 #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
 #$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
