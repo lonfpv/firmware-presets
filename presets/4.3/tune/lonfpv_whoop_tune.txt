@@ -4,14 +4,22 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 1S, 2S, whoop
 #$ AUTHOR: LonFPV (Rich Blomseth)
-
 #$ DESCRIPTION: Based on UAV_tech (Mark Spatz) whoop tune.
-#$ INCLUDE: presets/4.3/tune/UAV_tech_Whoop.txt
 
-# -- RPM filtering --
-set dshot_bidir = ON
-set rpm_filter_harmonics = 2
-set dyn_notch_count = 2
+#$ INCLUDE: presets/4.3/tune/defaults.txt
 
-# -- Dynamic idle --
-set dyn_idle_min_rpm = 35
+# -- PID Settings --
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 10000
+set iterm_relax_cutoff = 10
+set simplified_d_gain = 140
+set simplified_pi_gain = 100
+set simplified_feedforward_gain = 100
+set simplified_dmax_gain = 0
+set simplified_i_gain = 100
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 160
+
+# -- Apply settings --
+simplified_tuning apply
