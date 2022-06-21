@@ -20,7 +20,7 @@
 
 # -- RC link and VTX --
 #$ INCLUDE: presets/4.3/rc_link/lonfpv_elrs_spi_250hz.txt
-#$ INCLUDE: presets/4.3/vtx/lonfpv_hdzero_osd.txt
+#$ INCLUDE: presets/4.3/vtx/lonfpv_hdzero_vtx.txt
 
 # -- LonFPV common settings --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
