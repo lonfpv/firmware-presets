@@ -38,17 +38,13 @@ set min_check = 1020
 set max_check = 1990
 
 # -- FPV Angle Mix --
-# FPV mix degrees: Automatically coordinates roll and yaw
-# Only active when FPV Angle Mix mode is active
+# FPV mix degrees: Camera tilt angle in degrees that should be
+# compensated for when enabling FPV Angle Mix mode. It can be 
+# used to fly FPV as if the camera was tilted differently. 
+# Automatically coordinates roll and yaw when FPV Angle Mix
+# mode is active.  Also known as uptilt compensation.
 # JB recommends 50 degrees of camera uptilt
-# Invalid name in Betaflight 4.3
-# set fpv_mix_degrees = 10
-# From 4.1 documentation: 
-# BF Configurator: FPV Camera Angle [degrees]
-# Camera tilt angle in degrees that should be compensated 
-# for when enabling FPV Angle Mix mode. It can be used to 
-# fly FPV as if the camera was tilted differently. 
-# Also known as uptilt compensation.
+set fpv_mix_degrees = 10
 
 # -- Master --
 set failsafe_delay = 9
