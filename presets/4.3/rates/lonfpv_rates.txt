@@ -12,7 +12,6 @@ set rates_type = ACTUAL
 
 # profile 0
 profile 0
-set vbat_sag_compensation = 100
 set iterm_relax_cutoff = 20
 
 # rateprofile 0

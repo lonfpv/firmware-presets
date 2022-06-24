@@ -46,10 +46,14 @@ set max_check = 1990
 # JB recommends 50 degrees of camera uptilt
 set fpv_mix_degrees = 10
 
+# -- Dynamic idle on at 3500 rpm --
+set dyn_idle_min_rpm = 35
+
 # -- Master --
 set failsafe_delay = 9
 set failsafe_recovery_delay = 20
-set vbat_max_cell_voltage = 435
+set vbat_sag_compensation = 100
+set vbat_max_cell_voltage = 440
 set vbat_full_cell_voltage = 410
 set vbat_min_cell_voltage = 330
 set vbat_warning_cell_voltage = 350
@@ -58,3 +62,5 @@ set yaw_motors_reversed = ON
 set small_angle = 180
 set deadband = 1
 set yaw_deadband = 1
+set crash_recovery = ON
+set pidsum_limit = 1000
