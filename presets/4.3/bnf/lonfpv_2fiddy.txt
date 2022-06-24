@@ -42,6 +42,7 @@ serial 5 2 115200 57600 0 115200
 serial 6 1024 115200 57600 0 115200
 
 # -- Master --
+set bat_capacity = 380
 set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 0
@@ -49,7 +50,6 @@ set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 0
 set mag_hardware = AUTO
 set baro_hardware = AUTO
-set bat_capacity = 380
 
 # -- Motor Protocol --
 # DSHOT600 required for 8K PID loop

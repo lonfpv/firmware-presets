@@ -46,6 +46,7 @@ serial 1 1 115200 57600 0 115200
 # -- Master --
 # from RC6
 set crsf_use_negotiated_baud = OFF
+set bat_capacity = 450
 set vbat_scale = 112
 set ibata_scale = 285
 set vtx_band = 1
@@ -66,5 +67,5 @@ set dshot_idle_value = 450
 set dshot_bidir = ON
 set dshot_bitbang = AUTO
 set motor_poles = 12
-# Denominator for Gyro Update Frequency / PID Loop Frequency (4 for 2K)
-set pid_process_denom = 4
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K; 4 for 2K)
+set pid_process_denom = 2
