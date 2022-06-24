@@ -18,7 +18,7 @@ set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 1000
 set simplified_gyro_filter_multiplier = 150
 
-# TBD: is this required?
+# -- Apply simplified tuning --
 simplified_tuning apply
 
 # -- RPM filter and dynamic idle settings --
