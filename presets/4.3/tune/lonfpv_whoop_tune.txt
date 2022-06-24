@@ -21,5 +21,5 @@ set simplified_pitch_d_gain = 100
 set simplified_pitch_pi_gain = 100
 set simplified_master_multiplier = 160
 
-# -- Apply settings --
+# -- Apply simplified tuning --
 simplified_tuning apply
