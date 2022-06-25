@@ -37,3 +37,5 @@ set osd_disarmed_pos = 2220
 # -- OSD post-flight statistics --
 set osd_stat_tim_1 = ON
 set osd_stat_min_rssi = OFF
+
+#

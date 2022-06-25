@@ -25,3 +25,5 @@ simplified_tuning apply
 set dshot_bidir = ON
 set rpm_filter_harmonics = 2
 set dyn_idle_min_rpm = 35
+
+#

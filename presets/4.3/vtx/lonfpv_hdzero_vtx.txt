@@ -17,3 +17,5 @@ vtxtable powerlabels 25 200 500 MAX 0
 serial 1 1 115200 57600 0 115200
 set displayport_msp_serial = 1
 set osd_displayport_device = MSP
+
+#

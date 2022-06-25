@@ -14,3 +14,5 @@ feature -GPS
 # -- LonFPV GPS beeper customizations --
 beeper -ARMING_GPS_FIX
 beeper -GPS_STATUS
+
+#

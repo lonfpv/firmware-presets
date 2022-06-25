@@ -25,3 +25,5 @@ set rc_smoothing_feedforward_cutoff = 25
 
 # -- Report receive SNR for RSSI dBm --
 set crsf_use_rx_snr = ON
+
+#

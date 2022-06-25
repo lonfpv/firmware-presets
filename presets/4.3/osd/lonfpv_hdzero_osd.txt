@@ -42,3 +42,5 @@ set osd_stat_bb_no = OFF
 
 # -- Displayport device --
 set osd_displayport_device = MSP
+
+#

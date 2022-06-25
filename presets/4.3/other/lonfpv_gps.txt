@@ -34,3 +34,5 @@ set osd_gps_lat_pos = 2432
 set osd_gps_sats_pos = 2048
 set osd_home_dir_pos = 2080
 set osd_home_dist_pos = 2112
+
+#
