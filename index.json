@@ -427,7 +427,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/lonfpv_2fiddy.txt",
-      "hash": "005540fdebb4f42eac0448c46d9144a8aa34a76c8debc6618aba1fc924e52b48",
+      "hash": "d4250cafd0bbb9e86328093d3806aabc1e1717978220b8053bac22ca8a738842",
       "title": "LonFPV Ommagawd 2Fiddy 4-5\" 6S settings",
       "firmware_version": [
         "4.3"
@@ -454,7 +454,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/lonfpv_mobula7.txt",
-      "hash": "e0cfa86f8b0b746c7793aa04b9c1c9533ebf22f9b2cb1b9b0a5b6caa16018c70",
+      "hash": "5d2a220676cbb46aba5487c70f603f01955769c046187ae701c0c58cca3105f4",
       "title": "LonFPV HappyModel Mobula7 40mm 2S settings",
       "firmware_version": [
         "4.3"
@@ -811,6 +811,48 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/lonfpv_toothpick_filters.txt",
+      "hash": "f804e462bcf37d06d1276013c489c8721316382f57d65bcbeab72a563efcef85",
+      "title": "LonFPV default filters for 2\" to 4\" toothpick builds",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "toothpick",
+        "rpm",
+        "DShot telemetry",
+        "filter",
+        "filters",
+        "basic",
+        "default"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/lonfpv_whoop_filters.txt",
+      "hash": "9283e5dd0948539fd4664676b057801ba1d10b0eba565dad31012e7c0dbfb9ce",
+      "title": "LonFPV default filters for 1S and 2S whoop builds",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "whoop",
+        "rpm",
+        "DShot telemetry",
+        "filter",
+        "filters",
+        "basic",
+        "default"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "title": "Default 4.3 LED settings",
@@ -1091,7 +1133,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_common.txt",
-      "hash": "ad3d779a10f8a072b6739af7179ccafb9293b9c0aedbef69404e0cc68e4c89f0",
+      "hash": "fc03647f5f8910febc4ff90ef8f418649b3fb2c89cc2197d831bac4c490653b6",
       "title": "LonFPV common settings",
       "firmware_version": [
         "4.3"
@@ -1552,7 +1594,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/lonfpv_rates.txt",
-      "hash": "00d7289044ddb4c7be48caebc30fe7e0ed6b5b3e586788b95254ad2f60dcd972",
+      "hash": "34969b645978e0348b2537394a81051a87cfb712fa2442405a963df5f1084b4a",
       "title": "LonFPV default rates",
       "firmware_version": [
         "4.3"
@@ -2387,6 +2429,28 @@
       "priority": 10000000000
     },
     {
+      "fullPath": "presets/4.3/rc_link/lonfpv_tracer_250hz.txt",
+      "hash": "5d9eaacf8b1ecbf54d6860cec32d369ef15f35c4c14b36af2e22423c161badee",
+      "title": "LonFPV TBS Tracer 250Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "250Hz",
+        "TBS",
+        "Tracer",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 10000000000
+    },
+    {
       "fullPath": "presets/4.3/rc_link/redpine_666hz.txt",
       "hash": "4eda547aa9254df2aaa1f8d9ced25a219864255ac5a58c3b53ad3545fc19f33d",
       "title": "Redpine 666Hz",
@@ -2650,8 +2714,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/lonfpv_toothpick_tune.txt",
-      "hash": "954d9fd30f303a0c589427f1fc3950d9bed93158ee99b6fdf26b9f1449dcef8d",
-      "title": "LonFPV Toothpick Tune (2in to 4in)",
+      "hash": "fb20ce78a1f539613c074cdfa2d4cf9a46a702641cf2c8473cab00a0e42a59e5",
+      "title": "LonFPV 2\" to 4\" toothpick tune",
       "firmware_version": [
         "4.3"
       ],
@@ -2676,8 +2740,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/lonfpv_whoop_tune.txt",
-      "hash": "e57d514b4d419308f18803a66aef33ae7abbc8c06afa56229259a83a12c14c3f",
-      "title": "LonFPV Whoop Tune (1S & 2S)",
+      "hash": "f96945eb53845ca2f32648322b50693b6c9ace2554999bd263f8b746ec343d1f",
+      "title": "LonFPV 1S and 2S whoop tune",
       "firmware_version": [
         "4.3"
       ],
