@@ -5,6 +5,11 @@
 #$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
 #$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad.
+#$ DESCRIPTION: Ommagawd 2Fiddy 4-5" 6S components:
+#$ DESCRIPTION: o Frame: Ummagawd 2Fiddy 4" or 5"
+#$ DESCRIPTION: o Motor (4S): BrotherHobby VY 2004 2100kV 4-6S
+#$ DESCRIPTION: o Motor (6S): Ummagawd Aerolite 2004 1600KV 6S
+#$ DESCRIPTION: o AIO Flight Controller (4S): Iflight Beast Std F7 45A AIO 32-bit
 
 # -- Tune, filters, rates, and modes --
 #$ INCLUDE: presets/4.3/tune/lonfpv_toothpick_tune.txt
