@@ -1,11 +1,12 @@
-#$ TITLE: LonFPV Ommagawd 2Fiddy 4-5" 6S settings
+#$ TITLE: LonFPV Ommagawd 2Fiddy 4-5" 4S settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ KEYWORDS: 4in, 4", 5in, 5", 4S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
 
-#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 6S freestyle quad.
+#$ DESCRIPTION: BNF settings for an Ommagawd 2Fiddy 4" to 5" 4S freestyle quad.
+#$ DESCRIPTION:
 #$ DESCRIPTION: Components:
 #$ DESCRIPTION: o Frame: Ummagawd 2Fiddy 4" or 5"
 #$ DESCRIPTION: o Motor (4S): BrotherHobby VY 2004 2100kV 4-6S
@@ -46,27 +47,26 @@
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 # -- Resources --
-resource MOTOR 1 E09
-resource MOTOR 2 B00
-resource MOTOR 3 E11
-resource MOTOR 4 B01
+resource MOTOR 1 B00
+resource MOTOR 2 B01
+resource MOTOR 3 E09
+resource MOTOR 4 E11
 
 # -- Serial Ports --
 # Tracer
-serial 1 64 115200 57600 0 115200
+serial 2 64 115200 57600 0 115200
 # Vista
 serial 4 1 115200 57600 0 115200
 # GPS
-serial 5 2 115200 57600 0 115200
+serial 6 2 115200 57600 0 115200
 # ESC
-serial 6 1024 115200 57600 0 115200
+serial 5 1024 115200 57600 0 115200
 
 # -- Master --
 set bat_capacity = 380
 set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 0
-# CW0 for 4S CW180 for 6S
 set gyro_1_sensor_align = CW0
 set gyro_1_align_yaw = 0
 set mag_hardware = AUTO
