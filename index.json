@@ -426,8 +426,35 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/bnf/lonfpv_2fiddy.txt",
-      "hash": "d4250cafd0bbb9e86328093d3806aabc1e1717978220b8053bac22ca8a738842",
+      "fullPath": "presets/4.3/bnf/lonfpb_2fiddy_4S.txt",
+      "hash": "39aecfc99dbe717fa86e16b9b8a3b01fc98211466046cbf096712b5676e9bad9",
+      "title": "LonFPV Ommagawd 2Fiddy 4-5\" 4S settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "4in",
+        "4\"",
+        "5in",
+        "5\"",
+        "4S",
+        "freestyle",
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/lonfpv_2fiddy_6S.txt",
+      "hash": "a2d385a9abe06939b27ad452233cdbb174ae71df9ceb09aa1ace07ce0df2c426",
       "title": "LonFPV Ommagawd 2Fiddy 4-5\" 6S settings",
       "firmware_version": [
         "4.3"
@@ -454,7 +481,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/lonfpv_mobula7.txt",
-      "hash": "5d2a220676cbb46aba5487c70f603f01955769c046187ae701c0c58cca3105f4",
+      "hash": "d09ba632a01e64a4e66e7dd236dc459566fe58b6db9ab4e130f9402f9c43377e",
       "title": "LonFPV HappyModel Mobula7 40mm 2S settings",
       "firmware_version": [
         "4.3"
@@ -812,7 +839,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/lonfpv_toothpick_filters.txt",
-      "hash": "f804e462bcf37d06d1276013c489c8721316382f57d65bcbeab72a563efcef85",
+      "hash": "cc26c86678a07f58a010329ee3b151d02fb2ec1cb121246b4a7cb7ff717272af",
       "title": "LonFPV default filters for 2\" to 4\" toothpick builds",
       "firmware_version": [
         "4.3"
@@ -833,7 +860,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/lonfpv_whoop_filters.txt",
-      "hash": "9283e5dd0948539fd4664676b057801ba1d10b0eba565dad31012e7c0dbfb9ce",
+      "hash": "cf41bdfa48166d1c638f12bac928f6fbb9bd37ebb4a2583d94866059e8ac6299",
       "title": "LonFPV default filters for 1S and 2S whoop builds",
       "firmware_version": [
         "4.3"
@@ -871,7 +898,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lonfpv_20_leds.txt",
-      "hash": "0a38746dd0468dd157bbc9182fda7afb7360a55f2bd30495415c5f51ff9c7471",
+      "hash": "3228c4a3cec8f8995659725264bef04971539485c195bd160d09d1b7ee359d3e",
       "title": "LonFPV 20-LED settings",
       "firmware_version": [
         "4.3"
@@ -888,7 +915,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lonfpv_led_disable.txt",
-      "hash": "64c59bb5ae672c7e71b834efa9d1163ef1357a76fbe7415823cabaee540007b6",
+      "hash": "68c1a4bc1ecc4eeecca6d4b7165073a649b51999b9c3155a230f91367ba83259",
       "title": "LonFPV 20-LED settings",
       "firmware_version": [
         "4.3"
@@ -926,7 +953,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/lonfpv_modes.txt",
-      "hash": "aac55ad77eb5f4a6266e59eb17f2f828e546bedc21f36e92f484d0fa6f3f0ddf",
+      "hash": "a86f686794c9ec36d4c200bf4e098bfd1c6e1bc4cb8359ec18bd4e871f3721ce",
       "title": "LonFPV modes and adjustments settings",
       "firmware_version": [
         "4.3"
@@ -964,7 +991,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/lonfpv_dji_osd.txt",
-      "hash": "df28a649a3ed293b66febbd16268ac336af458a1d872e5d67bcdc86240a04b80",
+      "hash": "e19c44241e8100ac1a1e6880291064c351fff393b8557ef5651a5e4d75db78ad",
       "title": "LonFPV 4.3 DJI OSD settings",
       "firmware_version": [
         "4.3"
@@ -981,7 +1008,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/lonfpv_hdzero_osd.txt",
-      "hash": "af1963e343c5cfcaad1ff9f072c1ba490c7a5d882fb6c555853eb03562fdd552",
+      "hash": "383bfc990f6e0770cc408400815987d157c9b82404712cf7d0caaba60f27ddbe",
       "title": "LonFPV 4.3 HDZero OSD settings",
       "firmware_version": [
         "4.3"
@@ -1103,7 +1130,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_blackbox_4k_pid_2k_log.txt",
-      "hash": "b681c4feda47ac278fa58ab9d8b00296c312a856dc8f1eaf7efe01eac7e64ad6",
+      "hash": "37df4a3334b7fef60acb45143997470d59e62c2d0501b639d8e6eb4e0873de09",
       "title": "LonFPV blackbox settings for 4k PID loop and 2k logging",
       "firmware_version": [
         "4.3"
@@ -1118,7 +1145,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt",
-      "hash": "8c1c3628abe99d166f80d7f6f04e2bea477a90b7c8c900a686415bf0ae3d445a",
+      "hash": "dd3a98d0028343efc4bab60bb6d2e94f500485654bf958eadcce3dda6ac194b0",
       "title": "LonFPV blackbox settings for 8k PID loop and 2k logging",
       "firmware_version": [
         "4.3"
@@ -1133,7 +1160,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_common.txt",
-      "hash": "fc03647f5f8910febc4ff90ef8f418649b3fb2c89cc2197d831bac4c490653b6",
+      "hash": "a246a59238846f73c60f1ffe11999068e411badfb90a509ac6a2d85fbed0028b",
       "title": "LonFPV common settings",
       "firmware_version": [
         "4.3"
@@ -1154,7 +1181,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_gps.txt",
-      "hash": "0faa84e1ce3a3d92128db9f3a865ce8460a0f5b13ec46adc63f9ae2d81fef92c",
+      "hash": "7d7945d00a639ef5456a8eb4816b4b56839146fa8ac772fb0fe00cb9de269b5b",
       "title": "LonFPV enable GPS settings",
       "firmware_version": [
         "4.3"
@@ -1171,7 +1198,7 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_gps_disable.txt",
-      "hash": "cd2ee5e827b7ece77ca01b738cb3af60c8edcf5ccd93c78a64f55ff0192c169c",
+      "hash": "e8c46c92391d9b84a5403a5233a7a2040fda6636ca4c56311f296b1b0ffa9e8a",
       "title": "LonFPV disable GPS settings",
       "firmware_version": [
         "4.3"
@@ -1594,7 +1621,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/lonfpv_rates.txt",
-      "hash": "34969b645978e0348b2537394a81051a87cfb712fa2442405a963df5f1084b4a",
+      "hash": "ebcdf7940facb66407842ac64ab88bf41b529c7c297074562b1127fb44963aeb",
       "title": "LonFPV default rates",
       "firmware_version": [
         "4.3"
@@ -2409,7 +2436,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/lonfpv_elrs_spi_250hz.txt",
-      "hash": "aa9025d188f39bbd32da9d8fa5405d471b4ca8a742e28ebf079499036e95949b",
+      "hash": "8aa59955b6f71009db30daba2e709232cfcb8e72c330cdf19865424e51ac7f92",
       "title": "LonFPV ExpressLRS SPI 250Hz",
       "firmware_version": [
         "4.3"
@@ -2430,7 +2457,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/lonfpv_tracer_250hz.txt",
-      "hash": "5d9eaacf8b1ecbf54d6860cec32d369ef15f35c4c14b36af2e22423c161badee",
+      "hash": "b035bb022c1cd2085c11b40bc48112bc52bb3c2bcc3f1c2e3bbf931baf8c0630",
       "title": "LonFPV TBS Tracer 250Hz",
       "firmware_version": [
         "4.3"
@@ -2714,7 +2741,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/lonfpv_toothpick_tune.txt",
-      "hash": "fb20ce78a1f539613c074cdfa2d4cf9a46a702641cf2c8473cab00a0e42a59e5",
+      "hash": "d32a183fc21d3efa392db2d8e674a9f87239c939cfeabb7594a50524088c5070",
       "title": "LonFPV 2\" to 4\" toothpick tune",
       "firmware_version": [
         "4.3"
@@ -2740,7 +2767,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/lonfpv_whoop_tune.txt",
-      "hash": "f96945eb53845ca2f32648322b50693b6c9ace2554999bd263f8b746ec343d1f",
+      "hash": "36f3eb32e664a96751323d85aff464c961cd8a5fe4db920aa2d0bbe12b2dff82",
       "title": "LonFPV 1S and 2S whoop tune",
       "firmware_version": [
         "4.3"
@@ -3195,7 +3222,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/lonfpv_hdzero_vtx.txt",
-      "hash": "1da1eb93115028c04925f5ab540eddccb6aec26552007394962f390824e5af7a",
+      "hash": "e402798a7536b6776b1aadbde4e4d8b3982924175a7cc7a32989fab048668a52",
       "title": "LonFPV HDZero VTX",
       "firmware_version": [
         "4.3"
