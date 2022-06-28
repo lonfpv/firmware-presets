@@ -53,17 +53,17 @@ resource MOTOR 3 E09
 resource MOTOR 4 E11
 
 # -- Serial Ports --
+# Vista
+serial 0 1 115200 57600 0 115200
 # Tracer
 serial 2 64 115200 57600 0 115200
-# Vista
-serial 4 1 115200 57600 0 115200
-# GPS
-serial 6 2 115200 57600 0 115200
 # ESC
 serial 5 1024 115200 57600 0 115200
+# GPS
+serial 6 2 115200 57600 0 115200
 
 # -- Master --
-set bat_capacity = 380
+set bat_capacity = 525
 set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 0
