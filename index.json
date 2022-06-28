@@ -426,8 +426,8 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/bnf/lonfpb_2fiddy_4S.txt",
-      "hash": "39aecfc99dbe717fa86e16b9b8a3b01fc98211466046cbf096712b5676e9bad9",
+      "fullPath": "presets/4.3/bnf/lonfpv_2fiddy_4S.txt",
+      "hash": "c59b0f35b4528505e1d617bbcd10a461e5261fc8557bbf1d255a34b743fcfb1b",
       "title": "LonFPV Ommagawd 2Fiddy 4-5\" 4S settings",
       "firmware_version": [
         "4.3"
