@@ -13,15 +13,16 @@
 feature RX_SERIAL
 set serialrx_provider = CRSF
 
-# -- Feed forward settings for 250 Hz --
+# -- Feed forward settings for 250 Hz freestyle (not for racing) --
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 45
-set feedforward_jitter_factor = 10
+set feedforward_jitter_factor = 8
 
-# -- RC smoothing settings for 250 Hz --
-set rc_smoothing_auto_factor = 140
-set rc_smoothing_setpoint_cutoff = 25
-set rc_smoothing_feedforward_cutoff = 25
+# -- RC smoothing settings for 250 Hz (RB modified from 140/25/25) --
+# Auto smoothing of 52 is about 60hz
+set rc_smoothing_auto_factor = 52
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
 
 # -- Report receive SNR for RSSI dBm --
 set crsf_use_rx_snr = ON

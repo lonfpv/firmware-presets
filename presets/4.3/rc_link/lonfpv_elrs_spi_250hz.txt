@@ -19,15 +19,18 @@ set rx_spi_protocol = EXPRESSLRS
 set expresslrs_uid = 213,233,157,39,175,230
 set expresslrs_rate_index = 1
 
-# -- Stronger smoothing for 250 Hz HD freestyle (not for racing) --
+# -- Stronger smoothing for 250 Hz freestyle (not for racing) --
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 45
-set feedforward_jitter_factor = 10
-set rc_smoothing_auto_factor = 140
-set rc_smoothing_setpoint_cutoff = 25
-set rc_smoothing_feedforward_cutoff = 25
+set feedforward_jitter_factor = 8
 
-# -- Voltage telemtry readings --
+# -- RC smoothing settings for 250 Hz (RB modified from 140/25/25) --
+# Auto smoothing of 52 is about 60hz
+set rc_smoothing_auto_factor = 52
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
+
+# -- Voltage telemetry readings --
 set report_cell_voltage = ON
 
 #
