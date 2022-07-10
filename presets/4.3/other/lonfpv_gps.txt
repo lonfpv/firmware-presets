@@ -29,8 +29,8 @@ set gps_rescue_allow_arming_without_fix = ON
 
 # -- GPS OSD customizations --
 set osd_gps_speed_pos = 2400
-set osd_gps_lon_pos = 2464
-set osd_gps_lat_pos = 2432
+set osd_gps_lon_pos = 35232
+set osd_gps_lat_pos = 35200
 set osd_gps_sats_pos = 2048
 set osd_home_dir_pos = 2080
 set osd_home_dist_pos = 2112
