@@ -1,4 +1,4 @@
-#$ TITLE: LonFPV Catalyst Machineworks Shocker 4 to 5" 6S settings
+#$ TITLE: LonFPV Catalyst Machineworks Shocker settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
