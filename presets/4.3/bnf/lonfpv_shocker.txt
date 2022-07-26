@@ -42,6 +42,12 @@
 # -- LonFPV common settings --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
+# -- Resources --
+resource MOTOR 1 A00
+resource MOTOR 2 A01
+resource MOTOR 3 A02
+resource MOTOR 4 A03
+
 # -- Serial Ports --
 # Tracer
 serial 0 64 115200 57600 0 115200
@@ -52,10 +58,20 @@ serial 3 2 115200 57600 0 115200
 # ESC
 serial 5 1024 115200 57600 0 115200
 
-# -- Master --
+# -- Power --
 set bat_capacity = 1000
+
+# -- Sensors --
 set mag_hardware = AUTO
 set baro_hardware = AUTO
+set align_board_roll = 180
+set align_board_pitch = 0
+set align_board_yaw = 0
+set gyro_to_use = FIRST
+set gyro_1_sensor_align = CW180
+set gyro_1_align_yaw = 1800
+set gyro_2_sensor_align = CW270
+set gyro_2_align_yaw = 2700
 
 # -- Motor Protocol --
 # DSHOT600 required for 8K PID loop
