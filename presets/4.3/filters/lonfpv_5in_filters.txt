@@ -1,0 +1,34 @@
+#$ TITLE: LonFPV default filters for 5" (~630g AUW) builds
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rpm, DShot telemetry, filter, filters, basic, default
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: LonFPV default filters for 5" (~630g AUW) builds based
+#$ DESCRIPTION: on UAV_tech_5in.txt preset from UAV Tech with RPM
+#$ DESCRIPTION: filtering and dynamic idle options selected.
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- Filter Settings --
+set simplified_dterm_filter = ON
+set simplified_gyro_filter = OFF
+set dyn_notch_count = 4
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set simplified_dterm_filter_multiplier = 120
+
+# -- Gyro Lowpass Filters --
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set yaw_lowpass_hz = 0
+
+# -- Apply Simplified Tuning --
+simplified_tuning apply
+
+# -- RPM Filter and Dynamic Idle Settings --
+set dshot_bidir = ON
+set rpm_filter_harmonics = 2
+set dyn_idle_min_rpm = 35

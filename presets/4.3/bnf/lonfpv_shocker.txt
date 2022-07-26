@@ -19,18 +19,18 @@
 #$ DESCRIPTION: o Battery: GNB 1000mah 6S 22.2V 120C XT-60
 #$ DESCRIPTION:
 #$ DESCRIPTION: Statistics:
-#$ DESCRIPTION: o All-up-weight (AUW): TBD
-#$ DESCRIPTION: o Disk loading: TBD g/sq in
-#$ DESCRIPTION: o Thrust/Weight: TBD
+#$ DESCRIPTION: o All-up-weight (AUW): 580g (est)
+#$ DESCRIPTION: o Disk loading: 7.1 g/sq in
+#$ DESCRIPTION: o Thrust/Weight: 7.9 (est)
 
 # -- Tune, filters, rates, and modes --
-#$ INCLUDE: presets/4.3/tune/lonfpv_toothpick_tune.txt
-#$ INCLUDE: presets/4.3/filters/lonfpv_toothpick_filters.txt
+#$ INCLUDE: presets/4.3/tune/lonfpv_5in_tune.txt
+#$ INCLUDE: presets/4.3/filters/lonfpv_5in_filters.txt
 #$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
 #$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
 
 # -- LEDs, OSD, blackbox, and GPS --
-#$ INCLUDE: presets/4.3/leds/lonfpv_20_leds.txt
+#$ INCLUDE: presets/4.3/leds/lonfpv_24_leds.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_gps.txt

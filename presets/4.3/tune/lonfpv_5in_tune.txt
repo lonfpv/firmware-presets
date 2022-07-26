@@ -1,0 +1,30 @@
+#$ TITLE: LonFPV 5" (~630g AUW) tune
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 4S, 6S, 5", 5in
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Based on UAV_tech (Mark Spatz) 5in tune.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Based on Mark's base tune for a 5in quad with HD camera, approximate weight
+#$ DESCRIPTION: 630 grams.  This tune is good for 4S or 6S batteries.  The base preset assumes
+#$ DESCRIPTION: you have your ESC set to 24K PWM (default).
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/201
+
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+
+# -- PID Settings --
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 8000
+set simplified_i_gain = 100
+set simplified_d_gain = 100
+set simplified_pi_gain = 110
+set simplified_feedforward_gain = 130
+set simplified_dmax_gain = 0
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 135
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+simplified_tuning apply
