@@ -506,7 +506,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/lonfpv_shocker.txt",
-      "hash": "dfb31a31250bb3b93b331acb61a5ef26cfa297039bce65d68e498658769f0a70",
+      "hash": "3e7076b792bc6503214e38d640c7ebe072e97973b59b01c018e9c852ff550319",
       "title": "LonFPV Catalyst Machineworks Shocker settings",
       "firmware_version": [
         "4.3"
@@ -865,6 +865,26 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/lonfpv_5in_filters.txt",
+      "hash": "73626f2fcbccddb19b248d507471594f6809a777d6a8cce694a1c9c0208bcede",
+      "title": "LonFPV default filters for 5\" (~630g AUW) builds",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm",
+        "DShot telemetry",
+        "filter",
+        "filters",
+        "basic",
+        "default"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/filters/lonfpv_toothpick_filters.txt",
       "hash": "cc26c86678a07f58a010329ee3b151d02fb2ec1cb121246b4a7cb7ff717272af",
       "title": "LonFPV default filters for 2\" to 4\" toothpick builds",
@@ -927,6 +947,23 @@
       "fullPath": "presets/4.3/leds/lonfpv_20_leds.txt",
       "hash": "3228c4a3cec8f8995659725264bef04971539485c195bd160d09d1b7ee359d3e",
       "title": "LonFPV 20-LED settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "leds"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/leds/lonfpv_24_leds.txt",
+      "hash": "212965643663c1457b5cc09f71fc760d8f6d666227354f7b98814a685786b4de",
+      "title": "LonFPV 24-LED settings",
       "firmware_version": [
         "4.3"
       ],
@@ -2764,6 +2801,24 @@
         "karateBrot"
       ],
       "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/lonfpv_5in_tune.txt",
+      "hash": "e88b90f1b0bbb244d1dfd75184c92b02d059b60fab5744263345b739208a41d4",
+      "title": "LonFPV 5\" (~630g AUW) tune",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "4S",
+        "6S",
+        "5\"",
+        "5in"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
       "priority": 1000000000000
     },
     {
