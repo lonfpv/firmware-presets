@@ -1,0 +1,70 @@
+#$ TITLE: LonFPV Catalyst Machineworks Shocker 4 to 5" 6S settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 4in, 4", 5in, 5", 6S, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ AUTHOR: LonFPV (Rich Blomseth)
+
+#$ DESCRIPTION: BNF settings for a Catalyst Machineworks Shocker 4" to 5" 6S freestyle quad.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Components:
+#$ DESCRIPTION: o Frame: Catalyst Machineworks Shocker 4" or 5"
+#$ DESCRIPTION: o Motor: iFlight XING2 2207 1855kV 6S
+#$ DESCRIPTION: o Props (5"): HQ 5.1x2.5x3
+#$ DESCRIPTION: o Flight Controller: Diatone Mamba Basic MK4 H743 Dual Gyro
+#$ DESCRIPTION: o ESC: RushFPV Rush Blade ESC Extreme Edition
+#$ DESCRIPTION: o RC Receiver: TBS Tracer Nano RX
+#$ DESCRIPTION: o VTX and Camera: Caddx DJI Digital HD FPV Air Unit w/DJI Camera 720P 120FPS
+#$ DESCRIPTION: o GPS Receiver and Compass: Matek M8Q-5883 GPS and Compass
+#$ DESCRIPTION: o Battery: GNB 1000mah 6S 22.2V 120C XT-60
+#$ DESCRIPTION:
+#$ DESCRIPTION: Statistics:
+#$ DESCRIPTION: o All-up-weight (AUW): TBD
+#$ DESCRIPTION: o Disk loading: TBD g/sq in
+#$ DESCRIPTION: o Thrust/Weight: TBD
+
+# -- Tune, filters, rates, and modes --
+#$ INCLUDE: presets/4.3/tune/lonfpv_toothpick_tune.txt
+#$ INCLUDE: presets/4.3/filters/lonfpv_toothpick_filters.txt
+#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
+#$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+
+# -- LEDs, OSD, blackbox, and GPS --
+#$ INCLUDE: presets/4.3/leds/lonfpv_20_leds.txt
+#$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_gps.txt
+
+# -- RC link and VTX --
+#$ INCLUDE: presets/4.3/rc_link/lonfpv_tracer_250hz.txt
+#$ INCLUDE: presets/4.3/vtx/defaults.txt
+
+# -- LonFPV common settings --
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
+
+# -- Serial Ports --
+# Tracer
+serial 0 64 115200 57600 0 115200
+# Vista
+serial 2 1 115200 57600 0 115200
+# GPS
+serial 3 2 115200 57600 0 115200
+# ESC
+serial 5 1024 115200 57600 0 115200
+
+# -- Master --
+set bat_capacity = 1000
+set mag_hardware = AUTO
+set baro_hardware = AUTO
+
+# -- Motor Protocol --
+# DSHOT600 required for 8K PID loop
+set motor_pwm_protocol = DSHOT600
+set dshot_idle_value = 450
+set dshot_bidir = ON
+set dshot_bitbang = AUTO
+set motor_poles = 12
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
+set pid_process_denom = 1
+
+#

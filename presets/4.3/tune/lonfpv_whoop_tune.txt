@@ -24,4 +24,7 @@ set simplified_master_multiplier = 160
 # -- Apply simplified tuning --
 simplified_tuning apply
 
+# -- Enable crash recovery (good for ducted whoops) --
+set crash_recovery = ON
+
 #
