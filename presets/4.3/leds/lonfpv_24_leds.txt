@@ -12,31 +12,38 @@
 feature LED_STRIP
 
 # -- LED settings by arm and rear --
-led 0 10,10:SE:AIW:2
-led 1 11,11:SE:AIW:2
-led 2 12,12:SE:AIW:2
-led 3 13,13:SE:AIW:2
 
-led 4 10,8:NE:IW:10
-led 5 11,7:NE:IW:10
-led 6 12,6:NE:IW:10
-led 7 13,5:NE:IW:10
+# Arm 3
+led 0 5,10:SW:AIW:2
+led 1 4,11:SW:AIW:2
+led 2 3,12:SW:AIW:2
+led 3 2,13:SW:AIW:2
 
-led 8 5,8:NW:IW:10
-led 9 4,7:NW:IW:10
-led 10 3,6:NW:IW:10
-led 11 2,5:NW:IW:10
+# Arm 1
+led 4 10,10:SE:AIW:2
+led 5 11,11:SE:AIW:2
+led 6 12,12:SE:AIW:2
+led 7 13,13:SE:AIW:2
 
-led 12 5,10:SW:AIW:2
-led 13 4,11:SW:AIW:2
-led 14 3,12:SW:AIW:2
-led 15 2,13:SW:AIW:2
+# Arm 2
+led 8 10,8:NE:IW:10
+led 9 11,7:NE:IW:10
+led 10 12,6:NE:IW:10
+led 11 13,5:NE:IW:10
 
+# Arm 4
+led 12 5,8:NW:IW:10
+led 13 4,7:NW:IW:10
+led 14 3,6:NW:IW:10
+led 15 2,5:NW:IW:10
+
+# Rear left
 led 16 3,15:SW:AIW:2
 led 17 4,15:SW:AIW:2
 led 18 5,15::AIW:2
 led 19 6,15::AIW:2
 
+# Rear right
 led 20 9,15::AIW:2
 led 21 10,15::AIW:2
 led 22 11,15:SE:AIW:2
