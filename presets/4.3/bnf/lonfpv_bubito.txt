@@ -50,8 +50,10 @@ set bat_capacity = 300
 # -- Performance --
 set mag_hardware = NONE
 set baro_hardware = AUTO
-# Overclock to 120MHz; F411 cpu clock default is 108MHz
-# set cpu_overclock = 120MHZ
+# Overclock F411 to 120MHz; F411 CPU clock default is 108MHz
+# Overclock is not necessary for F405 with 166MHz default CPU clock
+# If F405 is over 50% CPU utilization, overclock to 192MHz, 216MHz, or 240MHz
+# set cpu_overclock = 192MHZ
 
 # -- Motor Protocol --
 # DSHOT600 required for 8K PID loop; DSHOT150 may be sufficient for 2K PID loop
