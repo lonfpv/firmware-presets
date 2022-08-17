@@ -1,0 +1,67 @@
+#$ TITLE: LonFPV HappyModel Mobula7 40mm 2S settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 40mm, 2S, whoop, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop.
+
+# -- Tune, filters, rates, and modes --
+#$ INCLUDE: presets/4.3/tune/lonfpv_whoop_tune.txt
+#$ INCLUDE: presets/4.3/filters/lonfpv_whoop_filters.txt
+#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
+#$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+
+# -- LEDs, OSD, blackbox, and GPS --
+#$ INCLUDE: presets/4.3/leds/lonfpv_led_disable.txt
+#$ INCLUDE: presets/4.3/osd/lonfpv_hdzero_osd.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_gps_disable.txt
+
+# -- RC link and VTX --
+#$ INCLUDE: presets/4.3/rc_link/lonfpv_elrs_spi_250hz.txt
+#$ INCLUDE: presets/4.3/vtx/lonfpv_hdzero_vtx.txt
+
+# -- LonFPV common settings --
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
+
+# -- Manufacturer: JHEMCU --
+manufacturer_id JHEF
+
+# -- Features --
+feature -ANTI_GRAVITY
+
+# -- Serial Ports --
+serial 20 1 115200 57600 0 115200
+serial 0 0 115200 57600 0 115200
+# VTX smart audio -- redundant with HDZero VTX preset
+serial 1 1 115200 57600 0 115200
+
+# -- Master --
+# from RC6
+set crsf_use_negotiated_baud = OFF
+set bat_capacity = 300
+# set vbat_scale = 112
+# set ibata_scale = 285
+# set gyro_1_sensor_align = CW0FLIP
+# set gyro_1_align_pitch = 1800
+# set gyro_1_align_yaw = 0
+
+# -- Performance --
+set mag_hardware = NONE
+set baro_hardware = AUTO
+# Overclock to 120MHz; F411 cpu clock default is 108MHz
+# set cpu_overclock = 120MHZ
+
+# -- Motor Protocol --
+# DSHOT600 required for 8K PID loop; DSHOT150 may be sufficient for 2K PID loop
+set motor_pwm_protocol = DSHOT600
+set dshot_burst = ON
+set dshot_idle_value = 450
+# set dshot_bidir = ON
+set dshot_bitbang = AUTO
+set motor_poles = 12
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K; 4 for 2K)
+set pid_process_denom = 1
+
+#
