@@ -1,10 +1,10 @@
-#$ TITLE: LonFPV HappyModel Mobula7 40mm 2S settings
+#$ TITLE: LonFPV Rotor Riot Bubito 35mm 1S settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: 40mm, 2S, whoop, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ KEYWORDS: 35mm, 1S, whoop, freestyle, defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: BNF settings for a HappyModel Mobula7 40mm 2S whoop.
+#$ DESCRIPTION: BNF settings for a Rotor Riot Bubito 35mm 1S whoop.
 
 # -- Tune, filters, rates, and modes --
 #$ INCLUDE: presets/4.3/tune/lonfpv_whoop_tune.txt
