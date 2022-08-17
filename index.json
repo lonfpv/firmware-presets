@@ -194,6 +194,7 @@
       "3.5\"",
       "3.5in",
       "3\"",
+      "35mm",
       "3in",
       "4\"",
       "40mm",
@@ -481,16 +482,16 @@
     },
     {
       "fullPath": "presets/4.3/bnf/lonfpv_bubito.txt",
-      "hash": "48671bf7d61302798119f8f16f97f922e972f4b18577526bfbe957200c1d2fcb",
-      "title": "LonFPV HappyModel Mobula7 40mm 2S settings",
+      "hash": "1dd23b7be0a652e3a22bc013bd33ef01f870c4468adbf1ab000ebbc1a8d27ec0",
+      "title": "LonFPV Rotor Riot Bubito 35mm 1S settings",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
-        "40mm",
-        "2S",
+        "35mm",
+        "1S",
         "whoop",
         "freestyle",
         "defaults",
