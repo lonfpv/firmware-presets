@@ -31,6 +31,12 @@ manufacturer_id JHEF
 # -- Features --
 feature -ANTI_GRAVITY
 
+# -- Resources --
+resource MOTOR 1 B00
+resource MOTOR 2 B01
+resource MOTOR 3 A03
+resource MOTOR 4 A02
+
 # -- Serial Ports --
 serial 20 1 115200 57600 0 115200
 serial 0 0 115200 57600 0 115200
@@ -41,8 +47,9 @@ serial 1 1 115200 57600 0 115200
 # from RC6
 set crsf_use_negotiated_baud = OFF
 set bat_capacity = 300
-# set vbat_scale = 112
-# set ibata_scale = 285
+set vbat_scale = 117
+set ibata_scale = 240
+set align_board_roll = 180
 # set gyro_1_sensor_align = CW0FLIP
 # set gyro_1_align_pitch = 1800
 # set gyro_1_align_yaw = 0
