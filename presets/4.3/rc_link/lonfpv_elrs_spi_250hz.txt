@@ -1,5 +1,6 @@
 #$ TITLE: LonFPV ExpressLRS SPI 250Hz
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: ELRS, express, 250Hz, rc, rx, link, smoothing

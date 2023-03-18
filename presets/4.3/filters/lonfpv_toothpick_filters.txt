@@ -1,12 +1,14 @@
 #$ TITLE: LonFPV default filters for 2" to 4" toothpick builds
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: toothpick, rpm, DShot telemetry, filter, filters, basic, default
 #$ AUTHOR: LonFPV (Rich Blomseth)
 #$ DESCRIPTION: LonFPV default filters for 2" to 4" toothpick builds based
 #$ DESCRIPTION: on UAV_tech_Toothpic.txt preset from UAV Tech with RPM
-#$ DESCRIPTION: filtering and dynamic idle options selected.
+#$ DESCRIPTION: filtering and dynamic idle options selected (called the micro
+#$ DESCRIPTION: tune in 4.4).
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 

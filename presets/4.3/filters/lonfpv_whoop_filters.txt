@@ -1,5 +1,6 @@
 #$ TITLE: LonFPV default filters for 1S and 2S whoop builds
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: whoop, rpm, DShot telemetry, filter, filters, basic, default

@@ -1,0 +1,84 @@
+#$ TITLE: LonFPV GEPRC Cinebot30 3" 6S settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 3in, 3", freestyle, defaults, reset, mode, modes, adjustments, aux, switch
+#$ AUTHOR: LonFPV (Rich Blomseth)
+
+#$ DESCRIPTION: BNF settings for a GEPRC Cinebot30 3" 6S freestyle quad.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Components:
+#$ DESCRIPTION: o Frame: GEPRC GEP-CT30 3"
+#$ DESCRIPTION: o Motor (6S): GETPRC SpeedX2 1804-2450kV 4-6S
+#$ DESCRIPTION: o Props (3"): HQprop T3.0x2.5x3
+#$ DESCRIPTION: o AIO Flight Controller: Diatone Mamba MK4 F740 F722 40A 6S BLHeli_32 AIO 
+#$ DESCRIPTION: o RC Receiver: TBS Tracer Nano RX
+#$ DESCRIPTION: o VTX and Camera: DJI O3 Air Unit and Camera 4K 60FPS / 1080P 100FPS
+#$ DESCRIPTION: o GPS Receiver and Compass: Matek M10Q-5883 GPS and Compass
+#$ DESCRIPTION: o Battery (6S): GNB 1000mAh 6S 22.2V 120C XT-60
+#$ DESCRIPTION:
+#$ DESCRIPTION: Statistics (3" 6S):
+#$ DESCRIPTION: o All-up-weight (AUW): TBDg
+#$ DESCRIPTION: o Disk loading: TBD g/sq in
+#$ DESCRIPTION: o Thrust/Weight: TBD @ TBD RPM, TBD A
+
+# -- Tune, filters, rates, and modes --
+#$ INCLUDE: presets/4.3/tune/lonfpv_toothpick_tune.txt
+#$ INCLUDE: presets/4.3/filters/lonfpv_toothpick_filters.txt
+#$ INCLUDE: presets/4.3/rates/lonfpv_rates.txt
+#$ INCLUDE: presets/4.3/modes/lonfpv_modes.txt
+
+# -- LEDs, OSD, blackbox, and GPS --
+#$ INCLUDE: presets/4.3/leds/lonfpv_led_disable.txt
+#$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
+#$ INCLUDE: presets/4.3/other/lonfpv_gps.txt
+
+# -- RC link and VTX --
+#$ INCLUDE: presets/4.3/rc_link/lonfpv_tracer_250hz.txt
+#$ INCLUDE: presets/4.3/vtx/defaults.txt
+
+# -- LonFPV common settings --
+#$ INCLUDE: presets/4.3/other/lonfpv_common.txt
+
+# -- Resources --
+resource MOTOR 1 E09
+resource MOTOR 2 B00
+resource MOTOR 3 E11
+resource MOTOR 4 B01
+
+# -- Serial Ports --
+# Tracer
+serial 0 64 115200 57600 0 115200
+# DJI O3 VTX MSP
+serial 1 131073 115200 57600 0 115200
+# GPS
+serial 4 2 115200 57600 0 115200
+# ESC
+serial 5 1024 115200 57600 0 115200
+
+# -- Master --
+set bat_capacity = 1000
+set vbat_scale = 111
+set vbat_divider = 10
+set ibata_scale = 605
+set ibata_offset = 0
+set align_board_roll = 0
+set align_board_pitch = 0
+set align_board_yaw = 0
+set gyro_1_sensor_align = CW180
+set gyro_1_align_yaw = 0
+set mag_hardware = AUTO
+set baro_hardware = AUTO
+
+# -- Motor Protocol --
+# DSHOT600 required for 8K PID loop
+set motor_pwm_protocol = DSHOT600
+set dshot_idle_value = 450
+set dshot_bidir = ON
+set dshot_bitbang = AUTO
+set motor_poles = 12
+# Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
+set pid_process_denom = 1
+
+#

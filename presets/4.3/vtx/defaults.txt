@@ -1,13 +1,14 @@
-#$ TITLE: Default 4.3 VTX settings
+#$ TITLE: Default VTX settings
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: VTX
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, reset, clear, vtx
 #$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets VTx settings and table back to 4.3 Defaults
+#$ DESCRIPTION: Resets VTX settings and table back to 4.3 Defaults
 #$ DESCRIPTION: Only the checked settings will be reset
 
-# reset basic Vtx settings
+# Reset basic VTX settings
 
 set vtx_channel = 0
 set vtx_power = 0
@@ -16,7 +17,7 @@ set vtx_freq = 0
 set vtx_pit_mode_freq = 0
 set vtx_halfduplex = ON
 
-# reset VTx table
+# Reset VTX table
 
 vtxtable bands 0
 vtxtable channels 0

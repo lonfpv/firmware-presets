@@ -1,5 +1,6 @@
 #$ TITLE: LonFPV default filters for 5" (~630g AUW) builds
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rpm, DShot telemetry, filter, filters, basic, default

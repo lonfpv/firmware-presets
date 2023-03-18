@@ -1,5 +1,6 @@
 #$ TITLE: LonFPV blackbox settings for 4k PID loop and 2k logging
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: blackbox
