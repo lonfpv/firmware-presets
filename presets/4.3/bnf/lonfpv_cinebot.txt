@@ -9,7 +9,7 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: Components:
 #$ DESCRIPTION: o Frame: GEPRC GEP-CT30 3"
-#$ DESCRIPTION: o Motor (6S): GETPRC SpeedX2 1804-2450kV 4-6S
+#$ DESCRIPTION: o Motor (6S): GEPPRC SpeedX2 1804-2450kV 4-6S
 #$ DESCRIPTION: o Props (3"): HQprop T3.0x2.5x3
 #$ DESCRIPTION: o AIO Flight Controller: Diatone Mamba MK4 F740 F722 40A 6S BLHeli_32 AIO 
 #$ DESCRIPTION: o RC Receiver: TBS Tracer Nano RX
