@@ -6,7 +6,7 @@
 #$ AUTHOR: LonFPV (Rich Blomseth)
 #$ DESCRIPTION: Resets the OSD values back to LonFPV 4.3 defaults for DJI digital FPV
 
-#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ INCLUDE: presets/4.4/osd/lonfpv_osd_defaults.txt
 
 # -- OSD units and warnings --
 set osd_units = IMPERIAL
