@@ -24,7 +24,7 @@ set rc_smoothing_auto_factor = 52
 set rc_smoothing_setpoint_cutoff = 0
 set rc_smoothing_feedforward_cutoff = 0
 
-# -- Report receive SNR for RSSI dBm --
+# -- Report receive SNR for RSSI dBm (deleted in Betaflight 4.4) --
 set crsf_use_rx_snr = ON
 
 #
