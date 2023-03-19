@@ -1850,7 +1850,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/lonfpv_cinebot.txt",
-      "hash": "33f3f175f2404bc3ba6341d74c8ee30804f98ad1854f259ab7b830f6b7303348",
+      "hash": "f3c180a7c95cc0efed7cf35cf7a670adad5b11f50c2a38180bdf99f302a3d1b5",
       "title": "LonFPV GEPRC Cinebot30 3\" 6S settings",
       "firmware_version": [
         "4.4"
