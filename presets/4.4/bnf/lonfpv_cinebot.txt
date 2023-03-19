@@ -30,7 +30,7 @@
 
 # -- LEDs, OSD, blackbox, and GPS --
 #$ INCLUDE: presets/4.3/leds/lonfpv_led_disable.txt
-#$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
+#$ INCLUDE: presets/4.4/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
 #$ INCLUDE: presets/4.4/other/lonfpv_gps.txt
 
