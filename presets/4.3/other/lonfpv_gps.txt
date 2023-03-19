@@ -1,11 +1,10 @@
 #$ TITLE: LonFPV enable GPS settings
 #$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, GPS
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: Resets the GPS settings to LonFPV 4.3 defaults 
+#$ DESCRIPTION: Enables and configures GPS settings 
 
 #$ INCLUDE: presets/4.3/other/reset_gps.txt
 

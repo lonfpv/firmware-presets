@@ -18,3 +18,5 @@ servo 7 1000 2000 1500 100 -1
 
 # servo mixer
 smix reset
+
+#

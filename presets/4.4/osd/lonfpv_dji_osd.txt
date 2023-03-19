@@ -1,5 +1,5 @@
 #$ TITLE: LonFPV DJI OSD settings
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, OSD
@@ -10,8 +10,7 @@
 
 # -- OSD units and warnings --
 set osd_units = IMPERIAL
-set osd_warn_no_gps_rescue = OFF
-set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_bitmask = 8191
 
 # -- OSD value positions --
 set osd_tim1 = 2336
@@ -27,7 +26,7 @@ set osd_crosshairs_pos = 2319
 set osd_current_pos = 2328
 set osd_mah_drawn_pos = 2362
 set osd_craft_name_pos = 2064
-# set osd_display_name_pos = 65
+set osd_pilot_name_pos = 65
 set osd_altitude_pos = 2144
 set osd_warnings_pos = 2409
 set osd_avg_cell_voltage_pos = 2297
@@ -35,7 +34,6 @@ set osd_disarmed_pos = 2220
 # set osd_esc_rpm_freq_pos = 234
 
 # -- OSD post-flight statistics --
-set osd_stat_tim_1 = ON
-set osd_stat_min_rssi = OFF
+set osd_stat_bitmask = 57131004
 
 #

@@ -240,3 +240,5 @@ set motor_pwm_rate = 480
 # both are better set to 1020 for digital radios with sticks adjusted to a 1000-2000 range
 # set min_throttle = 1070
 # set min_check = 1050
+
+#

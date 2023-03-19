@@ -1,5 +1,5 @@
 #$ TITLE: LonFPV TBS Tracer 250Hz
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 250Hz, TBS, Tracer, Team Black Sheep, CRSF, rc, rx , link
@@ -23,8 +23,5 @@ set feedforward_jitter_factor = 8
 set rc_smoothing_auto_factor = 52
 set rc_smoothing_setpoint_cutoff = 0
 set rc_smoothing_feedforward_cutoff = 0
-
-# -- Report receive SNR for RSSI dBm --
-set crsf_use_rx_snr = ON
 
 #

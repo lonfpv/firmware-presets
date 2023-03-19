@@ -7,8 +7,6 @@
 #$ AUTHOR: LonFPV (Rich Blomseth)
 #$ DESCRIPTION: Disables LEDs
 
-#$ INCLUDE: presets/4.3/leds/defaults.txt
-
 # -- LED feature --
 feature -LED_STRIP
 

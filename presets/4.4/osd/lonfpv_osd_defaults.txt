@@ -1,36 +1,22 @@
-#$ TITLE: Default 4.3 OSD settings
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: LonFPV Default OSD settings
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
-#$ STATUS: OFFICIAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, OSD
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets the OSD values back to Betaflight 4.3 defaults
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Resets the OSD values back to Betaflight 4.4 defaults.
+#$ DESCRIPTION: Based on Betaflight 4.3 official defaults, with changes
+#$ DESCRIPTION: for Betaflight 4.4 OSD CLI changes.
 
-set osd_units = METRIC
-set osd_warn_arming_disable = ON
-set osd_warn_batt_not_full = ON
-set osd_warn_batt_warning = ON
-set osd_warn_batt_critical = ON
-set osd_warn_visual_beeper = ON
-set osd_warn_crash_flip = ON
-set osd_warn_esc_fail = ON
-set osd_warn_core_temp = ON
-set osd_warn_rc_smoothing = ON
-set osd_warn_fail_safe = ON
-set osd_warn_launch_control = ON
-set osd_warn_no_gps_rescue = ON
-set osd_warn_gps_rescue_disabled = ON
-set osd_warn_rssi = OFF
-set osd_warn_link_quality = OFF
-set osd_warn_rssi_dbm = OFF
-set osd_warn_over_cap = OFF
+set osd_units = IMPERIAL
+set osd_warn_bitmask = 8191
 set osd_rssi_alarm = 20
 set osd_link_quality_alarm = 80
 set osd_rssi_dbm_alarm = -60
 set osd_cap_alarm = 2200
 set osd_alt_alarm = 100
 set osd_distance_alarm = 0
-set osd_esc_temp_alarm = -128
+set osd_esc_temp_alarm = 200
 set osd_esc_rpm_alarm = -1
 set osd_esc_current_alarm = -1
 set osd_core_temp_alarm = 70
@@ -61,7 +47,7 @@ set osd_current_pos = 234
 set osd_mah_drawn_pos = 234
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 234
-set osd_display_name_pos = 234
+set osd_pilot_name_pos = 234
 set osd_gps_speed_pos = 234
 set osd_gps_lon_pos = 234
 set osd_gps_lat_pos = 234
@@ -85,7 +71,7 @@ set osd_battery_usage_pos = 234
 set osd_disarmed_pos = 234
 set osd_nheading_pos = 234
 set osd_up_down_reference_pos = 205
-set osd_nvario_pos = 234
+set osd_ready_mode_pos = 234
 set osd_esc_tmp_pos = 234
 set osd_esc_rpm_pos = 234
 set osd_esc_rpm_freq_pos = 234
@@ -104,30 +90,7 @@ set osd_rcchannels_pos = 234
 set osd_camera_frame_pos = 35
 set osd_efficiency_pos = 234
 set osd_total_flights_pos = 234
-set osd_stat_rtc_date_time = OFF
-set osd_stat_tim_1 = OFF
-set osd_stat_tim_2 = ON
-set osd_stat_max_spd = ON
-set osd_stat_max_dist = OFF
-set osd_stat_min_batt = ON
-set osd_stat_endbatt = OFF
-set osd_stat_battery = OFF
-set osd_stat_min_rssi = ON
-set osd_stat_max_curr = ON
-set osd_stat_used_mah = ON
-set osd_stat_max_alt = OFF
-set osd_stat_bbox = ON
-set osd_stat_bb_no = ON
-set osd_stat_max_g_force = OFF
-set osd_stat_max_esc_temp = OFF
-set osd_stat_max_esc_rpm = OFF
-set osd_stat_min_link_quality = OFF
-set osd_stat_flight_dist = OFF
-set osd_stat_max_fft = OFF
-set osd_stat_total_flights = OFF
-set osd_stat_total_time = OFF
-set osd_stat_total_dist = OFF
-set osd_stat_min_rssi_dbm = OFF
+set osd_stat_bitmask = 57131004
 set osd_profile = 1
 set osd_profile_1_name = -
 set osd_profile_2_name = -

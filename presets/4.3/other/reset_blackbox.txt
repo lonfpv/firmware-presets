@@ -21,3 +21,5 @@ set blackbox_disable_debug = OFF
 set blackbox_disable_motors = OFF
 set blackbox_disable_gps = OFF
 set blackbox_mode = NORMAL
+
+#

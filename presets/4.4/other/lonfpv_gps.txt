@@ -1,0 +1,69 @@
+#$ TITLE: LonFPV enable GPS settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, GPS
+#$ AUTHOR: LonFPV (Rich Blomseth)
+#$ DESCRIPTION: Enables and configures GPS settings 
+
+# -- GPS feature customizations --
+feature GPS
+
+# -- GPS beeper customizations --
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+
+# -- GPS hardware customizations --
+set mag_hardware = AUTO
+set baro_hardware = AUTO
+
+# -- GPS aux channel customizations --
+aux 8 46 1 1425 1575 0 0
+
+# -- GPS receiver customizations --
+set gps_provider = UBLOX
+set gps_sbas_mode = WAAS
+set gps_sbas_integrity = OFF
+set gps_auto_config = ON
+set gps_auto_baud = OFF
+set gps_ublox_use_galileo = ON
+set gps_ublox_mode = AIRBORNE
+set gps_set_home_point_once = OFF
+set gps_use_3d_speed = OFF
+
+# -- GPS rescue customizations --
+set gps_rescue_min_start_dist = 30
+set gps_rescue_alt_mode = MAX_ALT
+set gps_rescue_initial_climb = 10
+set gps_rescue_ascend_rate = 500
+set gps_rescue_return_alt = 30
+set gps_rescue_ground_speed = 500
+set gps_rescue_pitch_angle_max = 40
+set gps_rescue_roll_mix = 150
+set gps_rescue_descent_dist = 20
+set gps_rescue_descend_rate = 100
+set gps_rescue_landing_alt = 4
+set gps_rescue_throttle_min = 1100
+set gps_rescue_throttle_max = 1600
+set gps_rescue_throttle_hover = 1275
+set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_throttle_p = 15
+set gps_rescue_throttle_i = 15
+set gps_rescue_throttle_d = 15
+set gps_rescue_velocity_p = 8
+set gps_rescue_velocity_i = 30
+set gps_rescue_velocity_d = 20
+set gps_rescue_yaw_p = 20
+set gps_rescue_use_mag = ON
+
+# -- GPS OSD customizations --
+set osd_gps_speed_pos = 2400
+set osd_gps_lon_pos = 35232
+set osd_gps_lat_pos = 35200
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2080
+set osd_home_dist_pos = 2112
+
+#
