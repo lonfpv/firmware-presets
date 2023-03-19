@@ -152,7 +152,6 @@
       "Betaflight",
       "Ivan Efimov (Limon)",
       "LonFPV (Rich Blomseth)",
-      "LonFPV (Rich Blomseth) (based on work by benlumley)",
       "sugarK"
     ],
     "keywords": [
@@ -357,7 +356,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/lonfpv_cinebot.txt",
-      "hash": "5e252f9f7ed18874a0a41650451424398b69a69afd8c9b197b82362d66467d17",
+      "hash": "29fdc48b0a64c1f69f10ffed4bcb8fcef2d1c07eccbd44edc506b847b5b59444",
       "title": "LonFPV GEPRC Cinebot30 3\" 6S settings",
       "firmware_version": [
         "4.3"
@@ -433,7 +432,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "55b73456b5e502b81071d4a5e88aab9843818380de9820d167aea6bdaf06cb76",
+      "hash": "ba3f9f644c5190d44da7f0531c24c539db457b70e4fd7c729e695410eb3dd73e",
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3",
@@ -452,7 +451,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/lonfpv_5in_filters.txt",
-      "hash": "055fcf4ea9ba69f24df84561432e49bdfb83296901e3376e0fb36bd9ce63de39",
+      "hash": "def117b6b31a6caf38ea2be148c7f6a5f95b8daf9317958299a5e36915129b06",
       "title": "LonFPV default filters for 5\" (~630g AUW) builds",
       "firmware_version": [
         "4.3",
@@ -517,7 +516,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/defaults.txt",
-      "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
+      "hash": "7ca40e6371308ff61ee1e4c5bf6f29b71c6ec4c29f2c62833871202abc57e127",
       "title": "Default 4.3 LED settings",
       "firmware_version": [
         "4.3"
@@ -570,7 +569,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lonfpv_led_disable.txt",
-      "hash": "9916cfe4c1e8e5c00998b86543898f597f7716e227fe4a85641c60b001f0cf41",
+      "hash": "88c9ce0b10c402499e4512a03f1af232d9c23a6d3e74d0be6216cbaea10c892f",
       "title": "LonFPV LED disable",
       "firmware_version": [
         "4.3",
@@ -588,7 +587,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
+      "hash": "38e4944ae2bd3c8a251ae718abfd01b2b2846eb557f27fdecaef8edbfdad3a6f",
       "title": "Default 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -631,7 +630,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
+      "hash": "48b2647b421f9766b0df8b1025534f60cfbcc4330481877f044b7f93a3898b53",
       "title": "Default 4.3 OSD settings",
       "firmware_version": [
         "4.3"
@@ -648,11 +647,10 @@
     },
     {
       "fullPath": "presets/4.3/osd/lonfpv_dji_osd.txt",
-      "hash": "901dfdaac4bf123a453bb38e72690bc2ada905e8c00bba5bfa332536b83a39d9",
+      "hash": "550935bf6db716e1c7cb5af851c66c05bad3076f27d43d5699fb6e060dd4ad1d",
       "title": "LonFPV DJI OSD settings",
       "firmware_version": [
-        "4.3",
-        "4.4"
+        "4.3"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -737,11 +735,10 @@
     },
     {
       "fullPath": "presets/4.3/other/lonfpv_gps.txt",
-      "hash": "b50b83a04598d90c8113fac908ac34873f596da3721bf0c0e7aac42f2b0501cd",
+      "hash": "33093d2f985319778270e829b0b8b36a330ccc692200d04395505c21f7e45764",
       "title": "LonFPV enable GPS settings",
       "firmware_version": [
-        "4.3",
-        "4.4"
+        "4.3"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -773,7 +770,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
-      "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
+      "hash": "837039fb93878f2cfd68a3414e5d6514e421088569ed78c195cc27f862977e4c",
       "title": "Reset 4.3 Blackbox settings",
       "firmware_version": [
         "4.3"
@@ -792,7 +789,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_camera_control.txt",
-      "hash": "837147e19b29bed6e3d6ab21d7d9bd291f8b38f9a378bd9b2ba075be7275fb0a",
+      "hash": "2ec2c924c5a104a7ddae7a745bf5cf6998a94674af70d6cfd071daa483a6f6ba",
       "title": "Reset Camera Control settings",
       "firmware_version": [
         "4.3"
@@ -812,7 +809,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_gps.txt",
-      "hash": "08a6638077cc4246ea23e7bfbb9d4759b31c0243a0f326b7379270039bd3a773",
+      "hash": "b8d94f19461d82829d46cf698d1f895ceb2a9bf44f7f0ec77d06dd130979143c",
       "title": "Reset GPS settings",
       "firmware_version": [
         "4.3"
@@ -829,7 +826,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_launch_mode.txt",
-      "hash": "e4a11824ea2e2426160e68a161ffc15ecb2f6d2436aeb84d76967c86f11ed491",
+      "hash": "b8f0b777c072c326847e4c31629155fa6363d2127869d296bd733fe75b32fd73",
       "title": "Reset Launch Mode settings",
       "firmware_version": [
         "4.3"
@@ -848,7 +845,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_names.txt",
-      "hash": "84a26fc8b78aefb8e4a9b0c01684ea8d207b35d0332edc3118885d60854a18c9",
+      "hash": "dea3baf3a9f982ae16158afe4167e2949222feab9756abc80e5cf60677ac2fd7",
       "title": "Reset 4.3 Names",
       "firmware_version": [
         "4.3"
@@ -866,7 +863,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_servo.txt",
-      "hash": "4b54c73d5472a403fc0f15ebcef2951ada94a5b5ecd5111c31e7f1ee494d00ec",
+      "hash": "d670975aa7fb25869abaa57b26bad5b537de7de13662cf9130ed4fbf30896736",
       "title": "Reset 4.3 Stats",
       "firmware_version": [
         "4.3"
@@ -883,7 +880,7 @@
     },
     {
       "fullPath": "presets/4.3/other/reset_stats.txt",
-      "hash": "557798e6885b64e7f3a238fc9d22ae3c61300b3d977c113ef14a4d74f38f0a84",
+      "hash": "58fd487bd8f438caa1363940fd2b0b1f5012b48f7d7a6eb774c1e0edb37b0ed3",
       "title": "Reset 4.3 Stats",
       "firmware_version": [
         "4.3"
@@ -900,7 +897,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
+      "hash": "14793dc900cf18fe8cf559812eaed2e4ec0fb93ebc8ecd1f59bf2ec4dbb2b6ac",
       "title": "Default rates",
       "firmware_version": [
         "4.3"
@@ -935,7 +932,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "dd9a493fb69537b8b495fbfa6f39477d69dba0c2538a2f2de68aa5a469616f05",
+      "hash": "dfa5737dfcb47c76a4cfd26db1cc44c142657f94f71a203a8630e23d4930b997",
       "title": "Reset RC related settings",
       "firmware_version": [
         "4.3"
@@ -1550,11 +1547,10 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/lonfpv_tracer_250hz.txt",
-      "hash": "ab6320d0deb2109f90280ae118f449601cf973992b3432664dcb335a98481ef0",
+      "hash": "b11f90b62eacada4135c1e4e24b4d7fc4f434d60ee18405f92f64546b5d17c43",
       "title": "LonFPV TBS Tracer 250Hz",
       "firmware_version": [
-        "4.3",
-        "4.4"
+        "4.3"
       ],
       "category": "RC_LINK",
       "status": "COMMUNITY",
@@ -1642,7 +1638,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "e0d4f600277f68d45120b00656d994af8e0492cdfc7f14f6ac2542ed4a781723",
+      "hash": "8dcdfe8dee53dd5b2b8671e5b94bd78dee96f466623968119ae972e563ceef69",
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"
@@ -1662,7 +1658,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/lonfpv_5in_tune.txt",
-      "hash": "61795bba682489100aeaf945e1429b844a902a6c7920897d942043451e833790",
+      "hash": "6d8532cafff906821608f9e2e3e75ab854d82f511f30b56afdbb6acffd6e038a",
       "title": "LonFPV 5\" (~630g AUW) tune",
       "firmware_version": [
         "4.3"
@@ -1723,7 +1719,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
-      "hash": "5b9d76fd857aa8637c394a13e86f4dc651173ca559afe3f61556ff2b0742f347",
+      "hash": "14d977875dd492281784bb786b7f32f3b9e48d8cc99eb8793bab58e9ec18ce06",
       "title": "Reset 4.3 Tune parameters, complete listing",
       "firmware_version": [
         "4.3"
@@ -1743,7 +1739,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/reset_some.txt",
-      "hash": "3fa44efe126b5d69036e960559722306bce24c7f1176698a5ff6be21adc2996d",
+      "hash": "7aa5132bb0d742c0d260b18a8c7196278bb2f91603c22aa99cda170fb37fb87e",
       "title": "Reset selected 4.3 Tune related settings.",
       "firmware_version": [
         "4.3"
@@ -1763,7 +1759,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "8f897c926826271de0d1ea8d25768a9dfcab28a6e2b9c5d0d73a922d82a79098",
+      "hash": "e5f0553c76a41e77fc7a649211bca032cd6f6833d5c300d337a73aaf38fec8ca",
       "title": "Default VTX settings",
       "firmware_version": [
         "4.3",
@@ -1782,7 +1778,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
-      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
+      "hash": "2c2b45b0bc2161ce5ad1075064acd4933d4b7a8d2c5a38786ddeca064e99902b",
       "title": "Default 4.3 VTX table settings",
       "firmware_version": [
         "4.3"
@@ -1801,7 +1797,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/HDZero.txt",
-      "hash": "7680f8d3a30f0fb9f1e79e7279abf03d950beda9f445fea88c58813d116a3eae",
+      "hash": "8d2ecced39e3d513ae029253bc2299ba7618ac38ab25e81704ecdb93fa703f46",
       "title": "HDZero VTXs",
       "firmware_version": [
         "4.2",
@@ -1854,7 +1850,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/lonfpv_cinebot.txt",
-      "hash": "b7cde89ecd3ffafac7b01495a313c689a3890ef6608ce49e2865cc76e79405f3",
+      "hash": "33f3f175f2404bc3ba6341d74c8ee30804f98ad1854f259ab7b830f6b7303348",
       "title": "LonFPV GEPRC Cinebot30 3\" 6S settings",
       "firmware_version": [
         "4.4"
@@ -1877,8 +1873,81 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/osd/lonfpv_dji_osd.txt",
+      "hash": "e33b6f562c3ea32d36b0a4188f8bd2b87fad271316d72bc5f9c6b7539b4ccbf6",
+      "title": "LonFPV DJI OSD settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/lonfpv_osd_defaults.txt",
+      "hash": "d4cf73a6faa87fdeb9f80e14b1f7019f95973de5ae37f7bde8a7dc6758ccd605",
+      "title": "LonFPV Default OSD settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/lonfpv_gps.txt",
+      "hash": "2240664ff36818677a84274fcdb6bd5b0bb9032baee6f36dcab19bbefa6158f2",
+      "title": "LonFPV enable GPS settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "GPS"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/lonfpv_tracer_250hz.txt",
+      "hash": "5c89c2a9a4d994b660beb63061cba7718fa21bd90c6553a0cdde07dfd212b59e",
+      "title": "LonFPV TBS Tracer 250Hz",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "250Hz",
+        "TBS",
+        "Tracer",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 10000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/defaults.txt",
-      "hash": "c23968521643dc18808db88a0ed2cd726181e0e2aacde55bdfde4a62f9a60b62",
+      "hash": "4132daf51c34a5890e5e03e5909bf470d4752e199466e0693b24fdada6782525",
       "title": "Betaflight 4.4 TUNE defaults",
       "firmware_version": [
         "4.4"
@@ -1924,7 +1993,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/lonfpv_dji_o3_vtx.txt",
-      "hash": "8a6c902116fecb81b0fc70d43109c66001d0107605e605ed7bb66ddc9fa313c3",
+      "hash": "a268d349cc17339290b073d8a37b5b4573605697626570f929117ebe18ff4af9",
       "title": "LonFPV OSD for DJI O3, Avatar HD, and Fpv.wtf",
       "firmware_version": [
         "4.4"
@@ -1949,7 +2018,7 @@
         "displayport",
         "msp"
       ],
-      "author": "LonFPV (Rich Blomseth) (based on work by benlumley)",
+      "author": "LonFPV (Rich Blomseth)",
       "priority": 1000000
     }
   ]
