@@ -42,10 +42,10 @@
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
 # -- Resources --
-resource MOTOR 1 E09
-resource MOTOR 2 B00
-resource MOTOR 3 E11
-resource MOTOR 4 B01
+# resource MOTOR 1 E09
+# resource MOTOR 2 B00
+# resource MOTOR 3 E11
+# resource MOTOR 4 B01
 
 # -- Serial Ports --
 # Tracer
@@ -59,15 +59,17 @@ serial 5 1024 115200 57600 0 115200
 
 # -- Master --
 set bat_capacity = 1000
-set vbat_scale = 111
+set vbat_scale = 110
 set vbat_divider = 10
-set ibata_scale = 605
+set ibata_scale = 210
 set ibata_offset = 0
-set align_board_roll = 0
+set align_board_roll = 180
 set align_board_pitch = 0
-set align_board_yaw = 0
-set gyro_1_sensor_align = CW180
-set gyro_1_align_yaw = 0
+set align_board_yaw = 45
+set gyro_1_sensor_align = DEFAULT
+set gyro_1_align_pitch = 1800
+set gyro_1_align_roll = 0
+set gyro_1_align_yaw = 2700
 set mag_hardware = AUTO
 set baro_hardware = AUTO
 
@@ -77,7 +79,7 @@ set motor_pwm_protocol = DSHOT600
 set dshot_idle_value = 450
 set dshot_bidir = ON
 set dshot_bitbang = AUTO
-set motor_poles = 12
+set motor_poles = 14
 # Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
 set pid_process_denom = 1
 
