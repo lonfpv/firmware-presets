@@ -35,7 +35,7 @@
 #$ INCLUDE: presets/4.4/other/lonfpv_gps.txt
 
 # -- RC link and VTX --
-#$ INCLUDE: presets/4.3/rc_link/lonfpv_tracer_250hz.txt
+#$ INCLUDE: presets/4.4/rc_link/lonfpv_tracer_250hz.txt
 #$ INCLUDE: presets/4.4/vtx/lonfpv_dji_o3_vtx.txt
 
 # -- LonFPV common settings --
