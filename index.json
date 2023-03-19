@@ -1547,7 +1547,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/lonfpv_tracer_250hz.txt",
-      "hash": "b11f90b62eacada4135c1e4e24b4d7fc4f434d60ee18405f92f64546b5d17c43",
+      "hash": "edcf3585e2ffdd99bde374be024792e027a74b2ce78ae98a3da7bb633307f498",
       "title": "LonFPV TBS Tracer 250Hz",
       "firmware_version": [
         "4.3"
@@ -1925,7 +1925,7 @@
     },
     {
       "fullPath": "presets/4.4/rc_link/lonfpv_tracer_250hz.txt",
-      "hash": "5c89c2a9a4d994b660beb63061cba7718fa21bd90c6553a0cdde07dfd212b59e",
+      "hash": "62a0fb47993685917cfe37e6ed4b6c94a0755c30f6c1893f31514d76d68146b1",
       "title": "LonFPV TBS Tracer 250Hz",
       "firmware_version": [
         "4.4"
@@ -1936,6 +1936,7 @@
         "250Hz",
         "TBS",
         "Tracer",
+        "Crossfire",
         "Team Black Sheep",
         "CRSF",
         "rc",
