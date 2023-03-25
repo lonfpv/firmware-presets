@@ -41,11 +41,8 @@
 # -- LonFPV common settings --
 #$ INCLUDE: presets/4.3/other/lonfpv_common.txt
 
-# -- Resources --
-# resource MOTOR 1 E09
-# resource MOTOR 2 B00
-# resource MOTOR 3 E11
-# resource MOTOR 4 B01
+# -- Motors --
+set motor_output_reordering = 2,3,0,1,4,5,6,7
 
 # -- Serial Ports --
 # UART1: Tracer Serial Rx
