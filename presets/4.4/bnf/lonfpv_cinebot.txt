@@ -48,13 +48,15 @@
 # resource MOTOR 4 B01
 
 # -- Serial Ports --
-# Tracer
+# UART1: Tracer Serial Rx
 serial 0 64 115200 57600 0 115200
-# DJI O3 VTX MSP
+# UART2: DJI O3 VTX MSP
 serial 1 131073 115200 57600 0 115200
-# GPS
+# UART4: FC WiFi MSP
+serial 3 1 115200 57600 0 115200
+# UART5: GPS
 serial 4 2 115200 57600 0 115200
-# ESC
+# UART6: ESC
 serial 5 1024 115200 57600 0 115200
 
 # -- Master --
