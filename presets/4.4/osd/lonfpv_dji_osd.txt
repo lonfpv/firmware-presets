@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, OSD
 #$ AUTHOR: LonFPV (Rich Blomseth)
-#$ DESCRIPTION: Resets the OSD values back to LonFPV 4.3 defaults for DJI digital FPV
+#$ DESCRIPTION: Resets the OSD values to LonFPV 4.4 defaults for DJI digital FPV
 
 #$ INCLUDE: presets/4.4/osd/lonfpv_osd_defaults.txt
 
@@ -13,24 +13,33 @@ set osd_units = IMPERIAL
 set osd_warn_bitmask = 8191
 
 # -- OSD value positions --
+
+set osd_esc_temp_alarm = 200
 set osd_tim1 = 2336
-set osd_vbat_pos = 2265
-set osd_rssi_pos = 2235
-set osd_rssi_dbm_pos = 2393
-set osd_link_quality_pos = 2273
-# set osd_tim_1_pos = 2336
-# set osd_tim_2_pos = 322
-set osd_flymode_pos = 2208
-# set osd_vtx_channel_pos = 376
-set osd_crosshairs_pos = 2319
-set osd_current_pos = 2328
-set osd_mah_drawn_pos = 2362
-set osd_craft_name_pos = 2064
+set osd_vbat_pos = 3286
+set osd_rssi_pos = 3254
+set osd_link_quality_pos = 2304
+set osd_rssi_dbm_pos = 3414
+set osd_flymode_pos = 2240
+set osd_crosshairs_pos = 2397
+set osd_current_pos = 3349
+set osd_mah_drawn_pos = 3382
+set osd_craft_name_pos = 2074
 set osd_pilot_name_pos = 65
+set osd_gps_speed_pos = 2176
+set osd_gps_lon_pos = 35264
+set osd_gps_lat_pos = 35232
+set osd_gps_sats_pos = 2048
+set osd_home_dir_pos = 2080
+set osd_home_dist_pos = 2112
 set osd_altitude_pos = 2144
-set osd_warnings_pos = 2409
-set osd_avg_cell_voltage_pos = 2297
-set osd_disarmed_pos = 2220
+set osd_warnings_pos = 2457
+set osd_avg_cell_voltage_pos = 3318
+set osd_disarmed_pos = 2331
+set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+set vcd_video_system = HD
 # set osd_esc_rpm_freq_pos = 234
 
 # -- OSD post-flight statistics --
