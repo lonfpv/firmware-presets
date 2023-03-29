@@ -44,6 +44,16 @@
 # -- Motors --
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 
+# -- Throttle limits --
+rateprofile 0
+set throttle_limit_percent = 96
+
+rateprofile 1
+set throttle_limit_percent = 98
+
+rateprofile 2
+set throttle_limit_percent = 100
+
 # -- Pin I/O --
 # To enable LED on/off control on TX3 pin, assign serial TX3 pin to 
 # non-inverted Output-Push-Pull pinio 3 on User 2
