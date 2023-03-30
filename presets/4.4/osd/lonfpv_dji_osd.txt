@@ -8,7 +8,8 @@
 
 #$ INCLUDE: presets/4.4/osd/lonfpv_osd_defaults.txt
 
-# -- OSD units and warnings --
+# -- OSD feature, units, and warnings --
+feature OSD
 set osd_units = IMPERIAL
 set osd_warn_bitmask = 8191
 

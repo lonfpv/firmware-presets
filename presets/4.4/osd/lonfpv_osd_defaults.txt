@@ -8,6 +8,7 @@
 #$ DESCRIPTION: Based on Betaflight 4.3 official defaults, with changes
 #$ DESCRIPTION: for Betaflight 4.4 OSD CLI changes.
 
+feature OSD
 set osd_units = IMPERIAL
 set osd_warn_bitmask = 8191
 set osd_rssi_alarm = 20
