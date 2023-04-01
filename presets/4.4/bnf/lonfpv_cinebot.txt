@@ -80,9 +80,9 @@ serial 5 1024 115200 57600 0 115200
 
 # -- Master --
 set bat_capacity = 1000
-set vbat_scale = 110
+set vbat_scale = 112
 set vbat_divider = 10
-set ibata_scale = 210
+set ibata_scale = 175
 set ibata_offset = 0
 set align_board_roll = 180
 set align_board_pitch = 0
