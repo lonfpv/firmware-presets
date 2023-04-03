@@ -59,7 +59,7 @@ set throttle_limit_percent = 100
 
 # -- Pin I/O --
 # To enable LED on/off control on TX3 pin, assign serial TX3 pin to 
-# non-inverted Output-Push-Pull pinio 3 on User 2
+# inverted Output-Push-Pull pinio 3 on User 2
 resource SERIAL_TX 3 none
 resource PINIO 3 B10
 set pinio_config = 129,129,129,1
