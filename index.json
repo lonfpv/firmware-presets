@@ -404,6 +404,31 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/bnf/lonfpv_qavpro_mini.txt",
+      "hash": "6c5897d374a437791f77038ec497beb03353dfaf7277b0e3b1e4ea54233a114c",
+      "title": "LonFPV Lumenier QAV-Pro Mini 3 1/2\" 6S settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "3.5in",
+        "3.5\"",
+        "6S",
+        "freestyle",
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/bnf/lonfpv_shocker.txt",
       "hash": "bf67132fb48dc9cea423a9d2db81a14c375d905bc66b4aecbe470a57e7c7bdca",
       "title": "LonFPV Catalyst Machineworks Shocker settings",
@@ -532,8 +557,26 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/leds/lonfpv_16_leds.txt",
+      "hash": "255416dde46a6cfc20b3ca0fd56a8ab568feca2ff5fa5a0e54ae63b1b55414f4",
+      "title": "LonFPV 16-LED settings",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "leds"
+      ],
+      "author": "LonFPV (Rich Blomseth)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/leds/lonfpv_20_leds.txt",
-      "hash": "f33a3ca9c16e3d4c4502fe8398d20e5dc1c3dd0fd5305917794f0d9011f1550e",
+      "hash": "8c5646fe2bf16768ec9bdf31f0c2cccaef3f259016ca31ba2361bff1c0cbd304",
       "title": "LonFPV 20-LED settings",
       "firmware_version": [
         "4.3",
@@ -551,7 +594,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lonfpv_24_leds.txt",
-      "hash": "51381e274f705e66410895d802935809998aa3f90114d4f2a96bb323af6106f7",
+      "hash": "e0730ebc13fa0077f08251f01c50605345ab4e221d2d3c8c86577324e1aa5eb9",
       "title": "LonFPV 24-LED settings",
       "firmware_version": [
         "4.3",
@@ -608,7 +651,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/lonfpv_modes.txt",
-      "hash": "4adadef6e7bd6cdfb04258c492b4692501158bd2ae890b564ee4aada73223e01",
+      "hash": "dfca7fe637fcf1cbf899cfe7708b646b8ee37d7fd8bd759da1181862bb4826cc",
       "title": "LonFPV modes and adjustments settings",
       "firmware_version": [
         "4.3",
@@ -1850,7 +1893,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/lonfpv_cinebot.txt",
-      "hash": "16f3264f2bfa1091fe98e3b8158e4479fa4a820b895828dbf05f6f01a14d7d5a",
+      "hash": "538059202e8716bc091029f5e65d4ca54310378e0eb5e156eb5fb298af9dca83",
       "title": "LonFPV GEPRC Cinebot30 3\" 6S settings",
       "firmware_version": [
         "4.4"
@@ -1874,7 +1917,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/lonfpv_dji_osd.txt",
-      "hash": "16d3ed2e2367443b2ee8a877e109cba41012c35eefb2745a4b433ae3f13bd8ee",
+      "hash": "25ee0ee15899d1e4a0ae07378820b5715c063cac263ebcafbfdbc0890e28a7a4",
       "title": "LonFPV DJI OSD settings",
       "firmware_version": [
         "4.4"
@@ -1891,7 +1934,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/lonfpv_osd_defaults.txt",
-      "hash": "d4cf73a6faa87fdeb9f80e14b1f7019f95973de5ae37f7bde8a7dc6758ccd605",
+      "hash": "5a7a6cb5418fa3ef463e838df5cdc6416b5a608ab865a1fa174c6f768873d125",
       "title": "LonFPV Default OSD settings",
       "firmware_version": [
         "4.4"
