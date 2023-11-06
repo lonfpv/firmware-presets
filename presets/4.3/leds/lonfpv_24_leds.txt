@@ -27,16 +27,16 @@ led 6 12,12:SE:AIW:2
 led 7 13,13:SE:AIW:2
 
 # Arm 2
-led 8 10,8:NE:IW:10
-led 9 11,7:NE:IW:10
-led 10 12,6:NE:IW:10
-led 11 13,5:NE:IW:10
+led 8 10,8:NE:AIW:10
+led 9 11,7:NE:AIW:10
+led 10 12,6:NE:AIW:10
+led 11 13,5:NE:AIW:10
 
 # Arm 4
-led 12 5,8:NW:IW:10
-led 13 4,7:NW:IW:10
-led 14 3,6:NW:IW:10
-led 15 2,5:NW:IW:10
+led 12 5,8:NW:AIW:10
+led 13 4,7:NW:AIW:10
+led 14 3,6:NW:AIW:10
+led 15 2,5:NW:AIW:10
 
 # Rear left
 led 16 3,15:SW:AIW:2

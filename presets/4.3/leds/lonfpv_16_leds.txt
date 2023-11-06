@@ -12,26 +12,30 @@
 # -- LED feature --
 feature LED_STRIP
 
-# -- LED settings by arm and rear --
+# -- LED settings by arm --
+# Arm 3
 led 0 5,12:SW:AIW:2
 led 1 4,13:SW:AIW:2
 led 2 3,14:SW:AIW:2
 led 3 2,15:SW:AIW:2
 
-led 4 10,12:ES:AIW:2
-led 5 11,13:ES:AIW:2
-led 6 12,14:ES:AIW:2
-led 7 13,15:ES:AIW:2
+# Arm 1
+led 4 10,12:SE:AIW:2
+led 5 11,13:SE:AIW:2
+led 6 12,14:SE:AIW:2
+led 7 13,15:SE:AIW:2
 
-led 8 10,10:NE:CIW:10
-led 9 11,9:NE:CIW:10
-led 10 12,8:NE:CIW:10
-led 11 13,7:NE:CIW:10
+# Arm 2
+led 8 10,10:NE:AIW:10
+led 9 11,9:NE:AIW:10
+led 10 12,8:NE:AIW:10
+led 11 13,7:NE:AIW:10
 
-led 12 5,10:NW:CIW:10
-led 13 4,9:NW:CIW:10
-led 14 3,8:NW:CIW:10
-led 15 2,7:NW:CIW:10
+# Arm 4
+led 12 5,10:NW:AIW:10
+led 13 4,9:NW:AIW:10
+led 14 3,8:NW:AIW:10
+led 15 2,7:NW:AIW:10
 
 # -- LED mode colors --
 mode_color 6 0 9
