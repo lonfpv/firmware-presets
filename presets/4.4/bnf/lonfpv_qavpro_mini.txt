@@ -10,18 +10,15 @@
 #$ DESCRIPTION: Components:
 #$ DESCRIPTION: o Frame: Lumenier QAV-Pro Mini 3 1/2"
 
-#$ DESCRIPTION: TBD; copied from 2Fiddy
-#$ DESCRIPTION: o Motor (4S): BrotherHobby VY 2004 2100kV 4-6S
-#$ DESCRIPTION: o Motor (6S): Ummagawd Aerolite 2004 1600KV 6S
-#$ DESCRIPTION: o Props (4"): Gemfan Hurricane 4.0x2.4x2
-#$ DESCRIPTION: o Props (5"): Gemfan Hurricane 5.0x3x2
-#$ DESCRIPTION: o AIO Flight Controller (4S): Iflight Beast Std F745A BLHeli_32 AIO
-#$ DESCRIPTION: o AIO Flight Controller (6S): Flywoo Goku GN745 BLHeli_32 AIO V1.2
+#$ DESCRIPTION: o Motor: Lumenier Zip V2 2305 2400kV Cinematic
+#$ DESCRIPTION: o Props: HQ Prop 3.5x2.2x3
+#$ DESCRIPTION: o Flight Controller: Holybro Kakute H7 Mini V1.3
+#$ DESCRIPTION: o ESC: Holybro Tekko32 Mini 32-bit F4 45A
 
 #$ DESCRIPTION: o RC Receiver: TBS Tracer Nano RX
 #$ DESCRIPTION: o VTX and Camera: DJI O3
 #$ DESCRIPTION: o GPS Receiver and Compass: Matek M10Q-5883 GPS and Compass
-#$ DESCRIPTION: o Battery: 1000-1100mAh 6S 22.2V 120C XT-60
+#$ DESCRIPTION: o Battery: 1050mAh 6S HV 22.8V 120C XT-60
 #$ DESCRIPTION:
 #$ DESCRIPTION: Statistics:
 #$ DESCRIPTION: o All-up-weight (AUW): TBDg
@@ -38,7 +35,7 @@
 #$ INCLUDE: presets/4.3/leds/lonfpv_16_leds.txt
 #$ INCLUDE: presets/4.3/osd/lonfpv_dji_osd.txt
 #$ INCLUDE: presets/4.3/other/lonfpv_blackbox_8k_pid_2k_log.txt
-#$ INCLUDE: presets/4.3/other/lonfpv_gps.txt
+#$ INCLUDE: presets/4.4/other/lonfpv_gps.txt
 
 # -- RC link and VTX --
 #$ INCLUDE: presets/4.3/rc_link/lonfpv_tracer_250hz.txt
