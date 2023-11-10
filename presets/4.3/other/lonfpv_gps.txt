@@ -20,7 +20,7 @@ set mag_hardware = AUTO
 set baro_hardware = AUTO
 
 # -- GPS aux channel customizations --
-aux 8 46 1 1425 1575 0 0
+aux 8 46 1 1725 1875 0 0
 
 # -- GPS receiver customizations --
 set gps_provider = UBLOX
