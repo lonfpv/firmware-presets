@@ -626,7 +626,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/lonfpv_modes.txt",
-      "hash": "dfca7fe637fcf1cbf899cfe7708b646b8ee37d7fd8bd759da1181862bb4826cc",
+      "hash": "88fcc167e1438ee557e3d87002c95f5c4344f68cb0de4005bfd8d894287e32a8",
       "title": "LonFPV modes and adjustments settings",
       "firmware_version": [
         "4.3",
@@ -1892,7 +1892,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/lonfpv_qavpro_mini.txt",
-      "hash": "c69e310c10784670ff5e6b8f16d288cc828d0b2394300e7acc244087e4bff6cc",
+      "hash": "d08d8024fbd96d5b0668d4a7cfa6c0e0b1a58364bf9ffa4b365f751bc46b89bc",
       "title": "LonFPV Lumenier QAV-Pro Mini 3 1/2\" 6S settings",
       "firmware_version": [
         "4.4"
