@@ -86,4 +86,9 @@ set motor_poles = 12
 # Denominator for Gyro Update Frequency / PID Loop Frequency (1 for 8K; 2 for 4K)
 set pid_process_denom = 1
 
+# -- Pin I/O --
+# Enable VTX power on/off control on User 1
+set pinio_box = 40,255,255,255
+aux 9 40 1 1500 1700 0 0
+
 #
