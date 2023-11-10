@@ -10,16 +10,31 @@
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 # -- Aux settings --
-# Arm, Angle, Horizon, (GPS Rescue), Beeper, Air Mode, FPV Angle Mix, Turtle Mode, Prearm, (User added separately)
+# Arm
 aux 0 0 0 1525 2100 0 0
+
+# Angle
 aux 1 1 4 1325 1475 0 0
+
+# Horizon
 aux 2 2 4 900 1075 0 0
+
+# Beeper
 aux 3 13 1 1325 1475 0 0
+
+# Air Mode
 aux 4 28 4 1925 2100 0 0
+
+# FPV Angle Mix
 aux 5 30 4 900 2100 0 0
+
+# Turtle Mode
 aux 6 35 1 1925 2100 0 0
+
+# Prearm
 aux 7 36 3 1525 2100 0 0
-aux 8 41 5 1525 2100 0 0
+
+# Return to Home (GPS Rescue) and User modes added separately
 
 # -- Adjustment ranges --
 adjrange 0 0 2 900 2100 12 2 0 0
