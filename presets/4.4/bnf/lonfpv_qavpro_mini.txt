@@ -75,7 +75,6 @@ set align_mag = CW0FLIP
 set mag_align_pitch = 1800
 
 # -- Telemetry --
-set report_cell_voltage = ON
 set telemetry_disabled_esc_temperature = OFF
 set telemetry_disabled_cap_used = OFF
 
