@@ -21,7 +21,7 @@
 #$ DESCRIPTION: o Battery: 1050mAh 6S HV 22.8V 120C XT-60
 #$ DESCRIPTION:
 #$ DESCRIPTION: Statistics:
-#$ DESCRIPTION: o All-up-weight (AUW): TBDg
+#$ DESCRIPTION: o All-up-weight (AUW): 571g
 #$ DESCRIPTION: o Disk loading: TBD g/sq in
 #$ DESCRIPTION: o Thrust/Weight: TBD @ TBD RPM, TBDA
 
@@ -73,6 +73,11 @@ set gyro_1_sensor_align = CW180
 set gyro_1_align_yaw = 0
 set align_mag = CW0FLIP
 set mag_align_pitch = 1800
+
+# -- Telemetry --
+set report_cell_voltage = ON
+set telemetry_disabled_esc_temperature = OFF
+set telemetry_disabled_cap_used = OFF
 
 # -- Hardware --
 set mag_hardware = AUTO

@@ -6,7 +6,7 @@
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: LonFPV (Rich Blomseth)
 #$ DESCRIPTION: Common Betaflight configuration shared with 1.6" to 5" builds
-#$ DESCRIPTION: TBD -- Customize with build-specific script and optionally LED and GPS configuration scripts
+#$ DESCRIPTION: Customize with build-specific script and optionally LED and GPS configuration scripts
 
 # -- Features --
 feature -AIRMODE
