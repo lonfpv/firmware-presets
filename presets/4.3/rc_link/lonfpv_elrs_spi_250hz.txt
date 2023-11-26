@@ -16,8 +16,6 @@ set serialrx_provider = CRSF
 feature -RX_SERIAL
 feature RX_SPI
 set rx_spi_protocol = EXPRESSLRS
-# binding phrase: lonfpv5127
-set expresslrs_uid = 213,233,157,39,175,230
 set expresslrs_rate_index = 1
 
 # -- Stronger smoothing for 250 Hz freestyle (not for racing) --

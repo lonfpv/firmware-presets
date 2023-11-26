@@ -25,6 +25,10 @@ set osd_canvas_height = 20
 set vcd_video_system = HD
 
 # -- Active OSD positions --
+# Column mask: 0x041F
+# Row mask: 0x03E0
+# Profile mask: 0x3800
+# Option mask: 0xC000
 set osd_altitude_pos = 18473
 set osd_avg_cell_voltage_pos = 2609
 set osd_compass_bar_pos = 3141
@@ -49,7 +53,6 @@ set osd_rssi_dbm_pos = 2633
 set osd_rssi_pos = 2601
 set osd_tim_2_pos = 2680
 set osd_up_down_reference_pos = 2129
-set osd_vbat_pos = 1076
 set osd_warnings_pos = 2455
 
 # -- Hidden OSD positions --
@@ -94,15 +97,15 @@ set osd_sys_fan_speed_pos = 234
 set osd_sys_goggle_dvr_pos = 234
 set osd_sys_goggle_voltage_pos = 234
 set osd_sys_lq_pos = 512
-set osd_sys_vtx_temp_pos = 1487
+set osd_vbat_pos = 1076
+set osd_vtx_channel_pos = 234
 set osd_sys_vtx_dvr_pos = 234
+set osd_sys_vtx_temp_pos = 1487
 set osd_sys_vtx_voltage_pos = 234
 set osd_sys_warnings_pos = 234
 set osd_throttle_pos = 234
 set osd_tim_1_pos = 234
 set osd_total_flights_pos = 234
-set osd_vtx_channel_pos = 234
-set osd_sys_vtx_temp_pos = 1487
 set osd_wh_drawn_pos = 234
 
 # -- OSD post-flight statistics --
