@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../Firmware Backup/2023-10-31 QAV-Pro Mini 3.5in Backup"
 		}
 	]
 }

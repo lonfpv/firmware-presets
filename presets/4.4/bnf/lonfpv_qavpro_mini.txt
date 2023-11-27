@@ -69,9 +69,11 @@ set ibata_offset = 0
 set align_board_roll = 0
 set align_board_pitch = 0
 set align_board_yaw = 0
-set gyro_1_sensor_align = CW180
-set gyro_1_align_yaw = 0
 set align_mag = CW0FLIP
+set gyro_1_sensor_align = CW270FLIP
+set gyro_1_align_roll = 0
+set gyro_1_align_pitch = 1800
+set gyro_1_align_yaw = 2700
 set mag_align_pitch = 1800
 
 # -- Telemetry --
