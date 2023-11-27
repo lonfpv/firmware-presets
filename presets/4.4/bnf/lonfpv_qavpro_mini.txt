@@ -59,7 +59,7 @@ serial 6 1024 115200 57600 0 115200
 
 # -- Power --
 set bat_capacity = 1000
-set vbat_scale = 110
+set vbat_scale = 111
 set vbat_divider = 10
 set vbat_multiplier = 1
 set ibata_scale = 168
